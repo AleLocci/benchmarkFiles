@@ -50,11 +50,11 @@ public class Problem11 {
 	private void errorCheck() {
 	    if((((a1840022387.equals("e")) && (a930233571 == 12)) && (a2135110469 == 10))){
 	    	cf = false;
-	    	//Errors.__VERIFIER_error(0);
+	    	Errors.__VERIFIER_error(0);
 	    }
 	    if((((a1227434655.equals("i")) && (a1074202851.equals("f"))) && (a2135110469 == 4))){
 	    	cf = false;
-	    	//Errors.__VERIFIER_error(1);
+	    	Errors.__VERIFIER_error(1);
 	    }
 	    if((((a130053513.equals("f")) && (a1644705049.equals("e"))) && (a2135110469 == 3))){
 	    	cf = false;
