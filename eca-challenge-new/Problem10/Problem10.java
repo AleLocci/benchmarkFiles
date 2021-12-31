@@ -1,12 +1,15 @@
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.InputStreamReader;
 
 public class Problem10 {
-	private String a4 = "e";
-	private int a1 = 23;
-	private String a12 = "e";
-	private int a19 = 9;
-	private int a10 = 0;
+
+	private static String a4 = "e";
+	private static int a1 = 23;
+	private static String a12 = "e";
+	private static int a19 = 9;
+	private static int a10 = 0;
 
 		private String[] inputs = {"C","D","E","F","B"};
 
@@ -16,187 +19,187 @@ public class Problem10 {
 
 	public String calculateOutput(String input) {
 		if((((((a10==4) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_57" );
+			return( input + " " + "error_57" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_48" );
+			return( input + " " + "error_48" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "globalError" );
+			return( input + " " + "globalError" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_50" );
+			return( input + " " + "error_50" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_15" );
+			return( input + " " + "error_15" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_28" );
+			return( input + " " + "error_28" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_12" );
+			return( input + " " + "error_12" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_58" );
+			return( input + " " + "error_58" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_24" );
+			return( input + " " + "error_24" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_29" );
+			return( input + " " + "error_29" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_26" );
+			return( input + " " + "error_26" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_42" );
+			return( input + " " + "error_42" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_55" );
+			return( input + " " + "error_55" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_47" );
+			return( input + " " + "error_47" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_41" );
+			return( input + " " + "error_41" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_46" );
+			return( input + " " + "error_46" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_49" );
+			return( input + " " + "error_49" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_56" );
+			return( input + " " + "error_56" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_6" );
+			return( input + " " + "error_6" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_32" );
+			return( input + " " + "error_32" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_39" );
+			return( input + " " + "error_39" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_21" );
+			return( input + " " + "error_21" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_20" );
+			return( input + " " + "error_20" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_19" );
+			return( input + " " + "error_19" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_17" );
+			return( input + " " + "error_17" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_14" );
+			return( input + " " + "error_14" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_38" );
+			return( input + " " + "error_38" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_16" );
+			return( input + " " + "error_16" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_30" );
+			return( input + " " + "error_30" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_43" );
+			return( input + " " + "error_43" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_3" );
+			return( input + " " + "error_3" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_22" );
+			return( input + " " + "error_22" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_45" );
+			return( input + " " + "error_45" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_36" );
+			return( input + " " + "error_36" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_8" );
+			return( input + " " + "error_8" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_52" );
+			return( input + " " + "error_52" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_53" );
+			return( input + " " + "error_53" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_31" );
+			return( input + " " + "error_31" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_33" );
+			return( input + " " + "error_33" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_7" );
+			return( input + " " + "error_7" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_23" );
+			return( input + " " + "error_23" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_0" );
+			return( input + " " + "error_0" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_10" );
+			return( input + " " + "error_10" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_40" );
+			return( input + " " + "error_40" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_51" );
+			return( input + " " + "error_51" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_35" );
+			return( input + " " + "error_35" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_5" );
+			return( input + " " + "error_5" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_1" );
+			return( input + " " + "error_1" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_37" );
+			return( input + " " + "error_37" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_13" );
+			return( input + " " + "error_13" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_9" );
+			return( input + " " + "error_9" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_44" );
+			return( input + " " + "error_44" );
 		}
 		if((((((a10==4) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_18" );
+			return( input + " " + "error_18" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_2" );
+			return( input + " " + "error_2" );
 		}
 		if((((((a10==2) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_27" );
+			return( input + " " + "error_27" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_11" );
+			return( input + " " + "error_11" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==8))){
-			throw new IllegalStateException( "error_54" );
+			return( input + " " + "error_54" );
 		}
 		if((((((a10==3) && (a12.equals("e"))) &&  218 < a1 ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_34" );
+			return( input + " " + "error_34" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&   ((38 < a1) && (218 >= a1)) ) && (a4.equals("e"))) && (a19==7))){
-			throw new IllegalStateException( "error_25" );
+			return( input + " " + "error_25" );
 		}
 		if((((((a10==0) && (a12.equals("e"))) &&  a1 <=  -13 ) && (a4.equals("e"))) && (a19==9))){
-			throw new IllegalStateException( "error_59" );
+			return( input + " " + "error_59" );
 		}
 		if((((((a10==1) && (a12.equals("e"))) &&   ((-13 < a1) && (38 >= a1)) ) && (a4.equals("e"))) && (a19==6))){
-			throw new IllegalStateException( "error_4" );
+			return( input + " " + "error_4" );
 		}
 
 	    if(((a12.equals("e")) && ((( 218 < a1  && ((a19==9) && input.equals(inputs[2]))) && (a10==1)) && (a4.equals("e"))))){
@@ -642,7 +645,8 @@ public class Problem10 {
 
 	    	 return null;
 	    } 
-	    throw new IllegalArgumentException("Current state has not transition for this input!");
+	    //throw new IllegalArgumentException("Current state has not transition for this input!");
+	     return("Current state has not transition for this input!");
 	}
 	public static void main(String[] args) throws Exception 
 	{
@@ -651,21 +655,47 @@ public class Problem10 {
 
 			// init eca-System and input reader
             Problem10 eca = new Problem10();
-            BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
-
-			// main i/o-loop
-            while(true)
-            {
-            	//read input
-                String input = stdin.readLine();
-                try{
+            File arq = new File("input");
+           //BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+           BufferedReader stdin = new BufferedReader(new FileReader(arq));
+           // main i/o-loop
+            String input;
+           while(stdin.ready())
+           {
+            //read input
+            input = stdin.readLine();
+            try{
                 	 //operate eca engine
                 	 output = eca.calculateOutput(input);
-                	 if(output != null)
-                	 	System.out.println(output);
+                	 if(output != null) {
+                	   if(output.contains("erro") || output.contains("Current state has not")) {
+                	        
+                	        a4 = "e";
+	                      a1 = 23;
+	                      a12 = "e";
+	                      a19 = 9;
+	                      a10 = 0;                	   
+                	        
+                                   System.out.println(input + " " +output);
+                                    
+                    	    } else {
+                    	    
+                                   System.out.println(input + " " +output);
+                        
+                    	    }
+                	 } else {  
+                	               	    
+                    	    System.out.println(input + " " + "NULL");
+                    	   
+                	}
                 } catch(IllegalArgumentException e){
-    	    		System.err.println("Invalid input: " + e.getMessage());
+                
+    	    	System.err.println("Invalid input: " + e.getMessage());
+    	    	
+    	    		
                 }
-	    	}
-	}
+                
+	  }
+	  
+           }
 }

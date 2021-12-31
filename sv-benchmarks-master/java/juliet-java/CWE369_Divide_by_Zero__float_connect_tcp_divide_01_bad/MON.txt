@@ -1,0 +1,36 @@
+
+ctc.jar v4.4 (MON.txt.lock (plus del) approach, lock())
+Dump of CTC++ coverage data from target memory at Wed Dec 15 15:51:27 BRT 2021:
+
+<START:MODUL,9,2O,5,M,9,3,0,1mxZN7,3rwdZa,1F,1Z,1h,1m,k,1i,1Z,1u,1Z,l,1l,1d,1c
+,1h,1Z,l,1Z,1k,1d,1w,1Z,1m,1c,1q,1d,l,17,1w,1o,1Z,1m,1r,1h,1n,1m,W,16,1q,1h,1u
+,1d,l,1a,1d,1m,1b,1g,1l,1Z,1q,1j,18,1h,1k,1d,1r,l,1r,1u,j,1a,1d,1m,1b,1g,1l,1Z
+,1q,1j,1r,j,1l,1Z,1r,1s,1d,1q,l,1i,1Z,1u,1Z,l,1i,1t,1k,1h,1d,1s,j,1i,1Z,1u,1Z,
+l,15,1P,17,p,s,v,1X,16,1h,1u,1h,1c,1d,1X,1a,1x,1X,1S,1d,1q,1n,1X,1X,1e,1k,1n,1
+Z,1s,1X,1b,1n,1m,1m,1d,1b,1s,1X,1s,1b,1o,1X,1c,1h,1u,1h,1c,1d,1X,m,n,1X,1a,1Z,
+1c,l,1F,1H,1G,k,1c,1Z,1s,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,>
+
+ctc.jar v4.4 (MON.txt.lock (plus del) approach, lock())
+Dump of CTC++ coverage data from target memory at Wed Dec 15 15:52:35 BRT 2021:
+
+<START:MODUL,9,2O,5,M,9,3,0,1mxZN7,3rwdZa,1F,1Z,1h,1m,k,1i,1Z,1u,1Z,l,1l,1d,1c
+,1h,1Z,l,1Z,1k,1d,1w,1Z,1m,1c,1q,1d,l,17,1w,1o,1Z,1m,1r,1h,1n,1m,W,16,1q,1h,1u
+,1d,l,1a,1d,1m,1b,1g,1l,1Z,1q,1j,18,1h,1k,1d,1r,l,1r,1u,j,1a,1d,1m,1b,1g,1l,1Z
+,1q,1j,1r,j,1l,1Z,1r,1s,1d,1q,l,1i,1Z,1u,1Z,l,1i,1t,1k,1h,1d,1s,j,1i,1Z,1u,1Z,
+l,15,1P,17,p,s,v,1X,16,1h,1u,1h,1c,1d,1X,1a,1x,1X,1S,1d,1q,1n,1X,1X,1e,1k,1n,1
+Z,1s,1X,1b,1n,1m,1m,1d,1b,1s,1X,1s,1b,1o,1X,1c,1h,1u,1h,1c,1d,1X,m,n,1X,1a,1Z,
+1c,l,1F,1H,1G,k,1c,1Z,1s,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,>
+
+ctc.jar v4.4 (MON.txt.lock (plus del) approach, lock())
+Dump of CTC++ coverage data from target memory at Wed Dec 15 15:55:18 BRT 2021:
+
+<START:MODUL,9,2O,5,M,9,3,0,1mxZN7,3rwdZa,1F,1Z,1h,1m,k,1i,1Z,1u,1Z,l,1l,1d,1c
+,1h,1Z,l,1Z,1k,1d,1w,1Z,1m,1c,1q,1d,l,17,1w,1o,1Z,1m,1r,1h,1n,1m,W,16,1q,1h,1u
+,1d,l,1a,1d,1m,1b,1g,1l,1Z,1q,1j,18,1h,1k,1d,1r,l,1r,1u,j,1a,1d,1m,1b,1g,1l,1Z
+,1q,1j,1r,j,1l,1Z,1r,1s,1d,1q,l,1i,1Z,1u,1Z,l,1i,1t,1k,1h,1d,1s,j,1i,1Z,1u,1Z,
+l,15,1P,17,p,s,v,1X,16,1h,1u,1h,1c,1d,1X,1a,1x,1X,1S,1d,1q,1n,1X,1X,1e,1k,1n,1
+Z,1s,1X,1b,1n,1m,1m,1d,1b,1s,1X,1s,1b,1o,1X,1c,1h,1u,1h,1c,1d,1X,m,n,1X,1a,1Z,
+1c,l,1F,1H,1G,k,1c,1Z,1s,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,>

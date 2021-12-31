@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>CTC++ Coverage Report - Execution Profile - Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keyword" content="CTC++, Testwell, Test Coverage Analyzer">
+<meta name="date" content="Wed Dec 15 15:55:19 2021">
+<meta name="generator" content="Testwell CTC++ add-on utility ctc2html v9.1.1">
+<link href="index.html" rel="contents">
+<link href="ctc.css" rel="stylesheet" type="text/css">
+<script src="ctc.js" type="text/javascript"></script>
+<script src="sorttable.js" type="text/javascript"></script>
+<script src="own_javascript.js" type="text/javascript"></script>
+</head>
+<body>
+<span class="reportb">CTC++ Coverage Report</span><span class="report">- Execution Profile</span><span class="info">#1/1</span><br><br>
+<span class="pages"><a href="indexF.html" target="_top">Directory Summary</a> | <a href="index.html" target="_top">Files Summary</a> | <a href="indexB1.html" target="_top">Functions Summary</a> | <a href="indexU.html" target="_top">Untested Code</a> | <a href="indexD1.html">Execution Profile</a><br>
+To files: <a href="indexD1.html">First</a> | Previous | Next | <a href="indexD1.html">Last</a> | <a href="indexA.html#a1">Index</a> | <a href="indexD1.html" target="_top">No Index</a></span><br><br>
+<span class="infob">Source file:</span><span class="infob">Main.java</span><br>
+<span class="infob">Instrumentation mode:</span><span class="info">multicondition</span><span class="indent"></span><span class="infob">Reduced to:</span><span class="info">MC/DC coverage</span><br>
+<span class="infob">TER:</span><span class="below">24 % (12/49) structural,</span><span class="below">32 % (23/70) statement</span><br><br>
+<table class="execution">
+<thead>
+<tr><th>Hits/True</th><th>False</th><th><a href="indexD1.html#ut1" title="First untested">Line</a></th><th>Source</th></tr>
+</thead>
+<tbody>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">1</td><td><span class="lineplain"><span class="comment">//&nbsp;This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;the&nbsp;SV-Benchmarks&nbsp;collection&nbsp;of&nbsp;verification&nbsp;tasks:</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">2</td><td><span class="lineplain"><span class="comment">//&nbsp;https://github.com/sosy-lab/sv-benchmarks</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">3</td><td><span class="lineplain"><span class="comment">//</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">4</td><td><span class="lineplain"><span class="comment">//&nbsp;SPDX-FileCopyrightText:&nbsp;2010-2020&nbsp;NIST</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">5</td><td><span class="lineplain"><span class="comment">//&nbsp;SPDX-FileCopyrightText:&nbsp;2020&nbsp;TU&nbsp;Dortmund,&nbsp;Malte&nbsp;Mues&nbsp;(mail.mues@gmail.com)</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">6</td><td><span class="lineplain"><span class="comment">//&nbsp;SPDX-FileCopyrightText:&nbsp;2020&nbsp;The&nbsp;SV-Benchmarks&nbsp;Community</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">7</td><td><span class="lineplain"><span class="comment">//</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">8</td><td><span class="lineplain"><span class="comment">//&nbsp;SPDX-License-Identifier:&nbsp;CC0-1.0</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">9</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">10</td><td><span class="lineplain"><span class="comment">/*</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">11</td><td><span class="lineplain"><span class="comment">This&nbsp;testcase&nbsp;is&nbsp;derived&nbsp;from&nbsp;the&nbsp;following&nbsp;File&nbsp;in&nbsp;the&nbsp;Juliet&nbsp;Benchmark&nbsp;found&nbsp;at:</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">12</td><td><span class="lineplain"><span class="comment">https://samate.nist.gov/SARD/testsuite.php&nbsp;in&nbsp;Version&nbsp;1.3</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">13</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">14</td><td><span class="lineplain"><span class="comment">The&nbsp;original&nbsp;file&nbsp;is:</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">15</td><td><span class="lineplain"><span class="comment">Filename:&nbsp;CWE369_Divide_by_Zero__float_connect_tcp_divide_01.java</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">16</td><td><span class="lineplain"><span class="comment">Label&nbsp;Definition&nbsp;File:&nbsp;CWE369_Divide_by_Zero__float.label.xml</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">17</td><td><span class="lineplain"><span class="comment">Template&nbsp;File:&nbsp;sources-sinks-01.tmpl.java</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">18</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">19</td><td><span class="lineplain"><span class="comment">It&nbsp;is&nbsp;renamed&nbsp;to&nbsp;Main.java&nbsp;according&nbsp;to&nbsp;SV-Comp&nbsp;rules.</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">20</td><td><span class="lineplain"><span class="comment">*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">21</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">22</td><td><span class="lineplain"><span class="comment">/*</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">23</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;@description</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">24</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;CWE:&nbsp;369&nbsp;Divide&nbsp;by&nbsp;zero</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">25</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;BadSource:&nbsp;connect_tcp&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">26</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;GoodSource:&nbsp;A&nbsp;hardcoded&nbsp;non-zero&nbsp;number&nbsp;(two)</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">27</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;Sinks:&nbsp;divide</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">28</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;&nbsp;&nbsp;&nbsp;GoodSink:&nbsp;Check&nbsp;for&nbsp;zero&nbsp;before&nbsp;dividing</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">29</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;&nbsp;&nbsp;&nbsp;BadSink&nbsp;:&nbsp;Dividing&nbsp;by&nbsp;a&nbsp;value&nbsp;that&nbsp;may&nbsp;be&nbsp;zero</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">30</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;Flow&nbsp;Variant:&nbsp;01&nbsp;Baseline</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">31</td><td><span class="lineplain">&nbsp;<span class="comment">*</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">32</td><td><span class="lineplain">&nbsp;<span class="comment">*&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">33</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">34</td><td><span class="lineplain">import&nbsp;java.io.IOException;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">35</td><td><span class="lineplain">import&nbsp;java.io.InputStreamReader;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">36</td><td><span class="lineplain">import&nbsp;java.net.Socket;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">37</td><td><span class="lineplain">import&nbsp;java.io.BufferedReader;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">38</td><td><span class="lineplain">import&nbsp;testcasesupport.*;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">39</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">40</td><td><span class="lineplain"><span class="keyword">public</span>&nbsp;<span class="keyword">class</span>&nbsp;Main&nbsp;{</span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="Main.java">Top</a></td></tr>
+<tr><td class="profile"><a id="a1"></a> 6</td><td class="profile"></td><td class="profile_line">41</td><td><span class="linehit">&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">void</span>&nbsp;bad()&nbsp;throws&nbsp;Throwable&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">42</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">float</span>&nbsp;data;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">43</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">44</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;-1.0f;&nbsp;<span class="comment">/*&nbsp;Initialize&nbsp;data&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">45</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">46</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">47</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">48</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Socket&nbsp;socket&nbsp;=&nbsp;null;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">49</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedReader&nbsp;readerBuffered&nbsp;=&nbsp;null;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">50</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InputStreamReader&nbsp;readerInputStream&nbsp;=&nbsp;null;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">51</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">52</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">53</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">54</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;Socket(<span class="string">"host.example.org"</span>,&nbsp;39544);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">55</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">56</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;read&nbsp;input&nbsp;from&nbsp;socket&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">57</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">58</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerInputStream&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;InputStreamReader(socket.getInputStream(),&nbsp;<span class="string">"UTF-8"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">59</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerBuffered&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;BufferedReader(readerInputStream);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">60</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">61</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;POTENTIAL&nbsp;FLAW:&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">62</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;stringNumber&nbsp;=&nbsp;readerBuffered.readLine();</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut2" id="ut1">63</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(stringNumber&nbsp;!=&nbsp;null)&nbsp;<span class="comment">//&nbsp;avoid&nbsp;NPD&nbsp;incidental&nbsp;warnings</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">64</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut3" id="ut2">65</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">66</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;Float.parseFloat(stringNumber.trim());</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut4" id="ut3">67</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(NumberFormatException&nbsp;exceptNumberFormat)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">68</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Number&nbsp;format&nbsp;exception&nbsp;parsing&nbsp;data&nbsp;from&nbsp;string"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">69</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">70</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">71</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">72</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;with&nbsp;stream&nbsp;reading"</span>);</span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">73</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;finally&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">74</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;clean&nbsp;up&nbsp;stream&nbsp;reading&nbsp;objects&nbsp;*/</span></span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">75</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"> 6</td><td class="profile_line"><a href="indexD1.html#ut5" id="ut4">76</a></td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(readerBuffered&nbsp;!=&nbsp;null)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">77</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerBuffered.close();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">78</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut6" id="ut5">79</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">80</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;closing&nbsp;BufferedReader"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">81</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">82</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">83</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"> 6</td><td class="profile_line"><a href="indexD1.html#ut7" id="ut6">84</a></td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(readerInputStream&nbsp;!=&nbsp;null)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">85</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerInputStream.close();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">86</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut8" id="ut7">87</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">88</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;closing&nbsp;InputStreamReader"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">89</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">90</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">91</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;clean&nbsp;up&nbsp;socket&nbsp;objects&nbsp;*/</span></span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">92</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"> 6</td><td class="profile_line"><a href="indexD1.html#ut9" id="ut8">93</a></td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(socket&nbsp;!=&nbsp;null)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">94</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket.close();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">95</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut10" id="ut9">96</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">97</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;closing&nbsp;Socket"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">98</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">99</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">100</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">101</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">102</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;POTENTIAL&nbsp;FLAW:&nbsp;Possibly&nbsp;divide&nbsp;by&nbsp;zero&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">103</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">int</span>&nbsp;result&nbsp;=&nbsp;(<span class="keyword">int</span>)&nbsp;(100.0&nbsp;/&nbsp;data);</span></td></tr>
+<tr><td class="profile"> 6</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut11" id="ut10">104</a></td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(1&nbsp;&lt;&nbsp;data&nbsp;||&nbsp;data&nbsp;&lt;=&nbsp;0)&nbsp;{</span></td></tr>
+<tr><td class="profile"> 0</td><td class="profile"></td><td class="profile_line">104</td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;1: T || _</span></td></tr>
+<tr><td class="profile"> 6</td><td class="profile"></td><td class="profile_line">104</td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;2: F || T</span></td></tr>
+<tr><td class="profile"></td><td class="profile"> 0</td><td class="profile_line">104</td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;3: F || F</span></td></tr>
+<tr onmouseover="highlight(this, 3, 1)" onmouseout="unhighlight(this, 3, 1)"><td class="mcdc_fail" colspan="2"> -</td><td class="profile_line"><a href="indexD1.html#ut12" id="ut11">104</a></td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;MC/DC (cond 1): 1 - 3</span></td></tr>
+<tr onmouseover="highlight(this, 3, 2)" onmouseout="unhighlight(this, 3, 2)"><td class="mcdc_fail" colspan="2"> -</td><td class="profile_line"><a href="indexD1.html#ut13" id="ut12">104</a></td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;MC/DC (cond 2): 2 - 3</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">105</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assert&nbsp;result&nbsp;&lt;&nbsp;100;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">106</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">107</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">108</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(result);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">109</td><td><a title="Function Main::bad()
+TER 45 % ( 11/24) structural, 67 % (21/31) statement"><span class="lineplain">&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">110</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="Main.java">Top</a></td></tr>
+<tr><td class="tcolnhit"><a id="a2"></a> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut14" id="ut13">111</a></td><td><span class="linenhit">&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">void</span>&nbsp;good()&nbsp;throws&nbsp;Throwable&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">112</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;goodG2B();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">113</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;goodB2G();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">114</td><td><a title="Function Main::good()
+TER 0 % ( 0/1) structural, 0 % (0/2) statement"><span class="lineplain">&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">115</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">116</td><td><span class="lineplain">&nbsp;&nbsp;<span class="comment">/*&nbsp;goodG2B()&nbsp;-&nbsp;use&nbsp;goodsource&nbsp;and&nbsp;badsink&nbsp;*/</span></span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="Main.java">Top</a></td></tr>
+<tr><td class="tcolnhit"><a id="a3"></a> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut15" id="ut14">117</a></td><td><span class="linenhit">&nbsp;&nbsp;<span class="keyword">private</span>&nbsp;<span class="keyword">void</span>&nbsp;goodG2B()&nbsp;throws&nbsp;Throwable&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">118</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">float</span>&nbsp;data;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">119</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">120</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;FIX:&nbsp;Use&nbsp;a&nbsp;hardcoded&nbsp;number&nbsp;that&nbsp;won't&nbsp;a&nbsp;divide&nbsp;by&nbsp;zero&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">121</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;2.0f;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">122</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">123</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;POTENTIAL&nbsp;FLAW:&nbsp;Possibly&nbsp;divide&nbsp;by&nbsp;zero&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">124</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">int</span>&nbsp;result&nbsp;=&nbsp;(<span class="keyword">int</span>)&nbsp;(100.0&nbsp;/&nbsp;data);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">125</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(result);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">126</td><td><a title="Function Main::goodG2B()
+TER 0 % ( 0/1) structural, 0 % (0/4) statement"><span class="lineplain">&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">127</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">128</td><td><span class="lineplain">&nbsp;&nbsp;<span class="comment">/*&nbsp;goodB2G()&nbsp;-&nbsp;use&nbsp;badsource&nbsp;and&nbsp;goodsink&nbsp;*/</span></span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="Main.java">Top</a></td></tr>
+<tr><td class="tcolnhit"><a id="a4"></a> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut16" id="ut15">129</a></td><td><span class="linenhit">&nbsp;&nbsp;<span class="keyword">private</span>&nbsp;<span class="keyword">void</span>&nbsp;goodB2G()&nbsp;throws&nbsp;Throwable&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">130</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">float</span>&nbsp;data;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">131</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">132</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;-1.0f;&nbsp;<span class="comment">/*&nbsp;Initialize&nbsp;data&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">133</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">134</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">135</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">136</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Socket&nbsp;socket&nbsp;=&nbsp;null;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">137</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedReader&nbsp;readerBuffered&nbsp;=&nbsp;null;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">138</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InputStreamReader&nbsp;readerInputStream&nbsp;=&nbsp;null;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">139</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut17" id="ut16">140</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">141</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">142</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;Socket(<span class="string">"host.example.org"</span>,&nbsp;39544);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">143</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">144</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;read&nbsp;input&nbsp;from&nbsp;socket&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">145</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">146</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerInputStream&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;InputStreamReader(socket.getInputStream(),&nbsp;<span class="string">"UTF-8"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">147</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerBuffered&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;BufferedReader(readerInputStream);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">148</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">149</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;POTENTIAL&nbsp;FLAW:&nbsp;Read&nbsp;data&nbsp;using&nbsp;an&nbsp;outbound&nbsp;tcp&nbsp;connection&nbsp;*/</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">150</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;stringNumber&nbsp;=&nbsp;readerBuffered.readLine();</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut18" id="ut17">151</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(stringNumber&nbsp;!=&nbsp;null)&nbsp;<span class="comment">//&nbsp;avoid&nbsp;NPD&nbsp;incidental&nbsp;warnings</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">152</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut19" id="ut18">153</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">154</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;Float.parseFloat(stringNumber.trim());</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut20" id="ut19">155</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(NumberFormatException&nbsp;exceptNumberFormat)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">156</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Number&nbsp;format&nbsp;exception&nbsp;parsing&nbsp;data&nbsp;from&nbsp;string"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">157</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">158</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut21" id="ut20">159</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">160</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;with&nbsp;stream&nbsp;reading"</span>);</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut22" id="ut21">161</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;finally&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">162</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;clean&nbsp;up&nbsp;stream&nbsp;reading&nbsp;objects&nbsp;*/</span></span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut23" id="ut22">163</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut24" id="ut23">164</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(readerBuffered&nbsp;!=&nbsp;null)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">165</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerBuffered.close();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">166</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut25" id="ut24">167</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">168</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;closing&nbsp;BufferedReader"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">169</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">170</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut26" id="ut25">171</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut27" id="ut26">172</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(readerInputStream&nbsp;!=&nbsp;null)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">173</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;readerInputStream.close();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">174</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut28" id="ut27">175</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">176</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;closing&nbsp;InputStreamReader"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">177</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">178</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">179</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;clean&nbsp;up&nbsp;socket&nbsp;objects&nbsp;*/</span></span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut29" id="ut28">180</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">try</span>&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut30" id="ut29">181</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(socket&nbsp;!=&nbsp;null)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">182</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket.close();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">183</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut31" id="ut30">184</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">catch</span>&nbsp;(IOException&nbsp;exceptIO)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">185</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"Error&nbsp;closing&nbsp;Socket"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">186</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">187</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">188</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">189</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">190</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">/*&nbsp;FIX:&nbsp;Check&nbsp;for&nbsp;value&nbsp;of&nbsp;or&nbsp;near&nbsp;zero&nbsp;before&nbsp;dividing&nbsp;*/</span></span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut32" id="ut31">191</a></td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(Math.abs(data)&nbsp;&gt;&nbsp;0.000001)&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">192</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">int</span>&nbsp;result&nbsp;=&nbsp;(<span class="keyword">int</span>)&nbsp;(100.0&nbsp;/&nbsp;data);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">193</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(result);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">194</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span class="keyword">else</span>&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">195</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IO.writeLine(<span class="string">"This&nbsp;would&nbsp;result&nbsp;in&nbsp;a&nbsp;divide&nbsp;by&nbsp;zero"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">196</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">197</td><td><a title="Function Main::goodB2G()
+TER 0 % ( 0/22) structural, 0 % (0/31) statement"><span class="lineplain">&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">198</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">199</td><td><span class="lineplain">&nbsp;&nbsp;<span class="comment">/*&nbsp;Below&nbsp;is&nbsp;the&nbsp;main().&nbsp;It&nbsp;is&nbsp;only&nbsp;used&nbsp;when&nbsp;building&nbsp;this&nbsp;testcase&nbsp;on</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">200</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;<span class="comment">*&nbsp;its&nbsp;own&nbsp;for&nbsp;testing&nbsp;or&nbsp;for&nbsp;building&nbsp;a&nbsp;binary&nbsp;to&nbsp;use&nbsp;in&nbsp;testing&nbsp;binary</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">201</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;<span class="comment">*&nbsp;analysis&nbsp;tools.&nbsp;It&nbsp;is&nbsp;not&nbsp;used&nbsp;when&nbsp;compiling&nbsp;all&nbsp;the&nbsp;testcases&nbsp;as&nbsp;one</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">202</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;<span class="comment">*&nbsp;application,&nbsp;which&nbsp;is&nbsp;how&nbsp;source&nbsp;code&nbsp;analysis&nbsp;tools&nbsp;are&nbsp;tested.</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">203</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;<span class="comment">*/</span></span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="Main.java">Top</a></td></tr>
+<tr><td class="profile"><a id="a5"></a> 6</td><td class="profile"></td><td class="profile_line">204</td><td><span class="linehit">&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">static</span>&nbsp;<span class="keyword">void</span>&nbsp;main(String[]&nbsp;args)&nbsp;throws&nbsp;Throwable&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">205</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;Main&nbsp;m&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;Main();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">206</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;m.bad();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">207</td><td><a title="Function Main::main()
+TER 100 % ( 1/1) structural, 100 % (2/2) statement"><span class="lineplain">&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">208</td><td><span class="lineplain">}</span></td></tr>
+</tbody>
+</table>
+<a id="ut32"></a>
+<span class="belowb">***TER</span><span class="belowb">24 % (12/49) of FILE Main.java</span><br>
+<span class="terindent"></span><span class="belowb">32 % (23/70) statement</span><br><br>
+<span class="pages"><a href="indexF.html" target="_top">Directory Summary</a> | <a href="index.html" target="_top">Files Summary</a> | <a href="indexB1.html" target="_top">Functions Summary</a> | <a href="indexU.html" target="_top">Untested Code</a> | <a href="indexD1.html">Execution Profile</a><br>
+To files: <a href="indexD1.html">First</a> | Previous | Next | <a href="indexD1.html">Last</a> | <a href="indexD1.html">Top</a> | <a href="indexA.html#a1">Index</a> | <a href="indexD1.html" target="_top">No Index</a></span><br><br>
+</body>
+</html>

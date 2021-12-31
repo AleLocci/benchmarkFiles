@@ -34,6 +34,7 @@ It is renamed to Main.java according to SV-Comp rules.
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
+import java.io.BufferedReader;
 import testcasesupport.*;
 
 public class Main {

@@ -1,0 +1,13 @@
+CTC++ warning 28: Too complex code, reduced to decision coverage in file Problem3.java at line 839
+CTC++ warning 28: Too complex code, reduced to decision coverage in file Problem3.java at line 858
+/tmp/CTC.1000.27346/Problem3.java:43: error: code too large
+public String calculateOutput ( String input ) { int ctc_m;  if (Problem3$ctc.ctc_s_inited == 0) Problem3$ctc.ctc_module_init();  Problem3$ctc.ctc_s[1]++;;   { 
+              ^
+1 error
+javactc: Command "javac" failed with exit code 1 at /usr/local/bin/javactc line 584.
+
+*** ctc2dat error: Could not open file MON.txt
+CTCPost error 14: Cannot open file MON.dat: No such file or directory
+CTCPost error 14: Cannot open file MON.dat: No such file or directory
+CTCPost error 14: Cannot open file MON.dat: No such file or directory
+

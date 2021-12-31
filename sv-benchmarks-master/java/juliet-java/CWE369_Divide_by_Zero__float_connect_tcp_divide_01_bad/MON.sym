@@ -1,0 +1,98 @@
+CTC++ sym 9
+Wed Dec 15 15:51:25 2021
+@Main.java
+7 1639594285 D354555A 0 0
+0 41 0 0 0 Main::bad
+90 0 0 0 0 ( )
+60 52 5 0 1
+20 63 9 0 2 stringNumber != null
+60 65 9 1 3
+3 67 10 0 3
+63 67 10 2 3 NumberFormatException exceptNumberFormat
+3 69 11 0 3
+3 70 11 0 2
+3 71 11 0 1
+63 71 11 3 1 IOException exceptIO
+3 73 12 0 1
+65 73 12 4 1
+60 75 12 5 2
+20 76 12 1 3 readerBuffered != null
+3 78 13 0 3
+3 79 13 0 2
+63 79 13 6 2 IOException exceptIO
+3 81 14 0 2
+60 83 14 7 2
+20 84 14 2 3 readerInputStream != null
+3 86 15 0 3
+3 87 15 0 2
+63 87 15 8 2 IOException exceptIO
+3 89 16 0 2
+60 92 16 9 2
+20 93 16 3 3 socket != null
+3 95 17 0 3
+3 96 17 0 2
+63 96 17 10 2 IOException exceptIO
+3 98 18 0 2
+3 99 18 0 1
+78 0 0 0 0 1,2
+79 0 0 0 0 0
+70 104 19 0 1 1 < data || data <= 0
+75 104 19 2 1 T || _
+75 104 19 1 1 F || T
+76 104 19 0 1 F || F
+80 0 0 0 0 2
+81 0 0 0 0 0,1
+77 104 19 0 1 1 < data
+80 0 0 0 0 1
+81 0 0 0 0 0
+77 104 19 0 1 data <= 0
+3 106 20 0 1
+2 109 21 0 0 Main::bad
+0 111 0 1 0 Main::good
+90 0 0 0 0 ( )
+2 114 2 0 0 Main::good
+0 117 0 2 0 Main::goodG2B
+90 0 0 0 0 ( )
+2 126 4 0 0 Main::goodG2B
+0 129 0 3 0 Main::goodB2G
+90 0 0 0 0 ( )
+60 140 5 11 1
+20 151 9 4 2 stringNumber != null
+60 153 9 12 3
+3 155 10 0 3
+63 155 10 13 3 NumberFormatException exceptNumberFormat
+3 157 11 0 3
+3 158 11 0 2
+3 159 11 0 1
+63 159 11 14 1 IOException exceptIO
+3 161 12 0 1
+65 161 12 15 1
+60 163 12 16 2
+20 164 12 5 3 readerBuffered != null
+3 166 13 0 3
+3 167 13 0 2
+63 167 13 17 2 IOException exceptIO
+3 169 14 0 2
+60 171 14 18 2
+20 172 14 6 3 readerInputStream != null
+3 174 15 0 3
+3 175 15 0 2
+63 175 15 19 2 IOException exceptIO
+3 177 16 0 2
+60 180 16 20 2
+20 181 16 7 3 socket != null
+3 183 17 0 3
+3 184 17 0 2
+63 184 17 21 2 IOException exceptIO
+3 186 18 0 2
+3 187 18 0 1
+20 191 18 8 1 Math . abs ( data ) > 0.000001
+3 194 20 0 1
+40 194 20 0 1
+3 196 21 0 1
+2 197 21 0 0 Main::goodB2G
+0 204 0 4 0 Main::main
+90 0 0 0 0 ( String [ ] args )
+2 207 2 0 0 Main::main
+%208,5,22,9,3,0
+END OF SYMBOLFILE

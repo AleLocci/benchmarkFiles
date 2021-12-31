@@ -1,0 +1,1714 @@
+*****************************************************************************
+*         CTC++, Test Coverage Analyzer for C/C++, Version 9.1.1            *
+*                                                                           *
+*                          UNTESTED CODE LISTING                            *
+*                                                                           *
+*                    Copyright (c) 1993-2013 Testwell Oy                    *
+*             Copyright (c) 2013-2020 Verifysoft Technology GmbH            *
+*****************************************************************************
+
+
+Symbol file(s) used   : MON.sym (Thu Dec 30 17:00:29 2021)
+Data file(s) used     : MON.dat (Thu Dec 30 17:00:34 2021)
+Listing produced at   : Thu Dec 30 17:00:35 2021
+Coverage view         : Reduced to condition coverage
+
+
+
+MONITORED SOURCE FILE : Problem10.java
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+         0            -    16 FUNCTION Problem10::getInputs()
+         0            -    17   return inputs
+
+-----------------------------------------------------------------------------
+
+       581                 20 FUNCTION Problem10::calculateOutput()
+         1        580      21   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        52          0 -    21     COND (a12 . equals ( "e" ))
+         5          0 -    21     COND (a4 . equals ( "e" ))
+         1        579      24   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       102          0 -    24     COND (a12 . equals ( "e" ))
+        22          0 -    24     COND (a4 . equals ( "e" ))
+         3        576      27   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       253          0 -    27     COND (a12 . equals ( "e" ))
+        10          0 -    27     COND (a4 . equals ( "e" ))
+         2        574      30   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       101          0 -    30     COND (a12 . equals ( "e" ))
+        11          0 -    30     COND (a4 . equals ( "e" ))
+         3        571      33   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        51          0 -    33     COND (a12 . equals ( "e" ))
+        22          0 -    33     COND (a4 . equals ( "e" ))
+         0        571 -    36   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        99          0 -    36     COND (a12 . equals ( "e" ))
+        21          0 -    36     COND (a4 . equals ( "e" ))
+         0         21 -    36     COND (a19 == 7)
+         0            -    37     return ( input + " " + "error_28" )
+         2        569      39   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        19          0 -    39     COND (a12 . equals ( "e" ))
+         8          0 -    39     COND (a4 . equals ( "e" ))
+         2        567      42   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        48          0 -    42     COND (a12 . equals ( "e" ))
+        13          0 -    42     COND (a4 . equals ( "e" ))
+         0        567 -    45   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       155          0 -    45     COND (a12 . equals ( "e" ))
+         5          0 -    45     COND (a4 . equals ( "e" ))
+         0          5 -    45     COND (a19 == 7)
+         0            -    46     return ( input + " " + "error_24" )
+         2        565      48   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        99          0 -    48     COND (a12 . equals ( "e" ))
+         2          0 -    48     COND (a4 . equals ( "e" ))
+         2          0 -    48     COND (a19 == 7)
+         4        561      51   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       155          0 -    51     COND (a12 . equals ( "e" ))
+        97          0 -    51     COND (a4 . equals ( "e" ))
+        16        545      54   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       250          0 -    54     COND (a12 . equals ( "e" ))
+        60          0 -    54     COND (a4 . equals ( "e" ))
+        11        534      57   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        46          0 -    57     COND (a12 . equals ( "e" ))
+        19          0 -    57     COND (a4 . equals ( "e" ))
+         6        528      60   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        97          0 -    60     COND (a12 . equals ( "e" ))
+        67          0 -    60     COND (a4 . equals ( "e" ))
+        12        516      63   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       234          0 -    63     COND (a12 . equals ( "e" ))
+        12          0 -    63     COND (a4 . equals ( "e" ))
+        12          0 -    63     COND (a19 == 8)
+        27        489      66   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       151          0 -    66     COND (a12 . equals ( "e" ))
+        93          0 -    66     COND (a4 . equals ( "e" ))
+         0        489 -    69   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        91          0 -    69     COND (a12 . equals ( "e" ))
+         0          9 -    69     COND (218 >= a1)
+         0          0 -    69     COND (a4 . equals ( "e" ))
+         0          0 -    69     COND (a19 == 8)
+         0            -    70     return ( input + " " + "error_49" )
+         0        489 -    72   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        35          0 -    72     COND (a12 . equals ( "e" ))
+        12          0 -    72     COND (a4 . equals ( "e" ))
+         0         12 -    72     COND (a19 == 8)
+         0            -    73     return ( input + " " + "error_56" )
+         0        489 -    75   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       124          0 -    75     COND (a12 . equals ( "e" ))
+        66          0 -    75     COND (a4 . equals ( "e" ))
+         0         66 -    75     COND (a19 == 6)
+         0            -    76     return ( input + " " + "error_6" )
+         0        489 -    78   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        17          0 -    78     COND (a12 . equals ( "e" ))
+         6          0 -    78     COND (a4 . equals ( "e" ))
+         0          6 -    78     COND (a19 == 7)
+         0            -    79     return ( input + " " + "error_32" )
+         0        489 -    81   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       222          0 -    81     COND (a12 . equals ( "e" ))
+         7          0 -    81     COND (a4 . equals ( "e" ))
+         0          7 -    81     COND (a19 == 8)
+         0            -    82     return ( input + " " + "error_39" )
+         0        489 -    84   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       222          0 -    84     COND (a12 . equals ( "e" ))
+         0         44 -    84     COND (218 >= a1)
+         0          0 -    84     COND (a4 . equals ( "e" ))
+         0          0 -    84     COND (a19 == 7)
+         0            -    85     return ( input + " " + "error_21" )
+         0        489 -    87   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       222          0 -    87     COND (a12 . equals ( "e" ))
+       171          0 -    87     COND (a4 . equals ( "e" ))
+         0        171 -    87     COND (a19 == 7)
+         0            -    88     return ( input + " " + "error_20" )
+         0        489 -    90   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       222          0 -    90     COND (a12 . equals ( "e" ))
+         7          0 -    90     COND (a4 . equals ( "e" ))
+         0          7 -    90     COND (a19 == 7)
+         0            -    91     return ( input + " " + "error_19" )
+         0        489 -    93   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        35          0 -    93     COND (a12 . equals ( "e" ))
+         4          0 -    93     COND (a4 . equals ( "e" ))
+         0          4 -    93     COND (a19 == 6)
+         0            -    94     return ( input + " " + "error_17" )
+         0        489 -    96   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        17          0 -    96     COND (a12 . equals ( "e" ))
+         3          0 -    96     COND (a4 . equals ( "e" ))
+         0          3 -    96     COND (a19 == 6)
+         0            -    97     return ( input + " " + "error_14" )
+         0        489 -    99   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        35          0 -    99     COND (a12 . equals ( "e" ))
+        11          0 -    99     COND (a4 . equals ( "e" ))
+         0         11 -    99     COND (a19 == 7)
+         0            -   100     return ( input + " " + "error_38" )
+         0        489 -   102   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        35          0 -   102     COND (a12 . equals ( "e" ))
+        12          0 -   102     COND (a4 . equals ( "e" ))
+         0         12 -   102     COND (a19 == 6)
+         0            -   103     return ( input + " " + "error_16" )
+         0        489 -   105   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        91          0 -   105     COND (a12 . equals ( "e" ))
+         9          0 -   105     COND (a4 . equals ( "e" ))
+         0          9 -   105     COND (a19 == 7)
+         0            -   106     return ( input + " " + "error_30" )
+         0        489 -   108   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       124          0 -   108     COND (a12 . equals ( "e" ))
+        13          0 -   108     COND (a4 . equals ( "e" ))
+         0         13 -   108     COND (a19 == 8)
+         0            -   109     return ( input + " " + "error_43" )
+         0        489 -   111   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       124          0 -   111     COND (a12 . equals ( "e" ))
+        13          0 -   111     COND (a4 . equals ( "e" ))
+         0         13 -   111     COND (a19 == 6)
+         0            -   112     return ( input + " " + "error_3" )
+         0        489 -   114   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       222          0 -   114     COND (a12 . equals ( "e" ))
+        44          0 -   114     COND (a4 . equals ( "e" ))
+         0         44 -   114     COND (a19 == 7)
+         0            -   115     return ( input + " " + "error_22" )
+         0        489 -   117   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       124          0 -   117     COND (a12 . equals ( "e" ))
+        40          0 -   117     COND (a4 . equals ( "e" ))
+         0         40 -   117     COND (a19 == 8)
+         0            -   118     return ( input + " " + "error_45" )
+         0        489 -   120   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        35          0 -   120     COND (a12 . equals ( "e" ))
+        12          0 -   120     COND (a4 . equals ( "e" ))
+         0         12 -   120     COND (a19 == 7)
+         0            -   121     return ( input + " " + "error_36" )
+         0        489 -   123   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        91          0 -   123     COND (a12 . equals ( "e" ))
+        21          0 -   123     COND (a4 . equals ( "e" ))
+         0         21 -   123     COND (a19 == 6)
+         0            -   124     return ( input + " " + "error_8" )
+         0        489 -   126   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        17          0 -   126     COND (a12 . equals ( "e" ))
+         6          0 -   126     COND (a4 . equals ( "e" ))
+         0          6 -   126     COND (a19 == 8)
+         0            -   127     return ( input + " " + "error_52" )
+         0        489 -   129   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        17          0 -   129     COND (a12 . equals ( "e" ))
+         5          0 -   129     COND (a4 . equals ( "e" ))
+         0          5 -   129     COND (a19 == 8)
+         0            -   130     return ( input + " " + "error_53" )
+         0        489 -   132   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        17          0 -   132     COND (a12 . equals ( "e" ))
+         3          0 -   132     COND (a4 . equals ( "e" ))
+         0          3 -   132     COND (a19 == 7)
+         0            -   133     return ( input + " " + "error_31" )
+         0        489 -   135   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        17          0 -   135     COND (a12 . equals ( "e" ))
+         5          0 -   135     COND (a4 . equals ( "e" ))
+         0          5 -   135     COND (a19 == 7)
+         0            -   136     return ( input + " " + "error_33" )
+         0        489 -   138   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        91          0 -   138     COND (a12 . equals ( "e" ))
+        61          0 -   138     COND (a4 . equals ( "e" ))
+         0         61 -   138     COND (a19 == 6)
+         0            -   139     return ( input + " " + "error_7" )
+         0        489 -   141   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       124          0 -   141     COND (a12 . equals ( "e" ))
+        13          0 -   141     COND (a4 . equals ( "e" ))
+         0         13 -   141     COND (a19 == 7)
+         0            -   142     return ( input + " " + "error_23" )
+         0        489 -   144   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       222          0 -   144     COND (a12 . equals ( "e" ))
+       171          0 -   144     COND (a4 . equals ( "e" ))
+         0        171 -   144     COND (a19 == 6)
+         0            -   145     return ( input + " " + "error_0" )
+         0        489 -   147   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        91          0 -   147     COND (a12 . equals ( "e" ))
+         9          0 -   147     COND (a4 . equals ( "e" ))
+         0          9 -   147     COND (a19 == 6)
+         0            -   148     return ( input + " " + "error_10" )
+         0        489 -   150   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       222          0 -   150     COND (a12 . equals ( "e" ))
+       171          0 -   150     COND (a4 . equals ( "e" ))
+         0        171 -   150     COND (a19 == 8)
+         0            -   151     return ( input + " " + "error_40" )
+         0        489 -   153   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        17          0 -   153     COND (a12 . equals ( "e" ))
+         3          0 -   153     COND (a4 . equals ( "e" ))
+         0          3 -   153     COND (a19 == 8)
+         0            -   154     return ( input + " " + "error_51" )
+         0        489 -   156   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        35          0 -   156     COND (a12 . equals ( "e" ))
+         8          0 -   156     COND (a4 . equals ( "e" ))
+         0          8 -   156     COND (a19 == 7)
+         0            -   157     return ( input + " " + "error_35" )
+         0        489 -   159   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       124          0 -   159     COND (a12 . equals ( "e" ))
+        40          0 -   159     COND (a4 . equals ( "e" ))
+         0         40 -   159     COND (a19 == 6)
+         0            -   160     return ( input + " " + "error_5" )
+         0        489 -   162   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       222          0 -   162     COND (a12 . equals ( "e" ))
+         0         44 -   162     COND (218 >= a1)
+         0          0 -   162     COND (a4 . equals ( "e" ))
+         0          0 -   162     COND (a19 == 6)
+         0            -   163     return ( input + " " + "error_1" )
+         0        489 -   165   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        35          0 -   165     COND (a12 . equals ( "e" ))
+         4          0 -   165     COND (a4 . equals ( "e" ))
+         0          4 -   165     COND (a19 == 7)
+         0            -   166     return ( input + " " + "error_37" )
+         0        489 -   168   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        17          0 -   168     COND (a12 . equals ( "e" ))
+         5          0 -   168     COND (a4 . equals ( "e" ))
+         0          5 -   168     COND (a19 == 6)
+         0            -   169     return ( input + " " + "error_13" )
+         0        489 -   171   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        91          0 -   171     COND (a12 . equals ( "e" ))
+         0          9 -   171     COND (218 >= a1)
+         0          0 -   171     COND (a4 . equals ( "e" ))
+         0          0 -   171     COND (a19 == 6)
+         0            -   172     return ( input + " " + "error_9" )
+         0        489 -   174   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+       124          0 -   174     COND (a12 . equals ( "e" ))
+         5          0 -   174     COND (a4 . equals ( "e" ))
+         0          5 -   174     COND (a19 == 8)
+         0            -   175     return ( input + " " + "error_44" )
+         0        489 -   177   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        35          0 -   177     COND (a12 . equals ( "e" ))
+        11          0 -   177     COND (a4 . equals ( "e" ))
+         0         11 -   177     COND (a19 == 6)
+         0            -   178     return ( input + " " + "error_18" )
+         0        489 -   180   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       222          0 -   180     COND (a12 . equals ( "e" ))
+        44          0 -   180     COND (a4 . equals ( "e" ))
+         0         44 -   180     COND (a19 == 6)
+         0            -   181     return ( input + " " + "error_2" )
+         0        489 -   183   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        91          0 -   183     COND (a12 . equals ( "e" ))
+        61          0 -   183     COND (a4 . equals ( "e" ))
+         0         61 -   183     COND (a19 == 7)
+         0            -   184     return ( input + " " + "error_27" )
+         0        489 -   186   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+        17          0 -   186     COND (a12 . equals ( "e" ))
+         3          0 -   186     COND (a4 . equals ( "e" ))
+         0          3 -   186     COND (a19 == 6)
+         0            -   187     return ( input + " " + "error_11" )
+         0        489 -   189   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+        17          0 -   189     COND (a12 . equals ( "e" ))
+         3          0 -   189     COND (a4 . equals ( "e" ))
+         0          3 -   189     COND (a19 == 8)
+         0            -   190     return ( input + " " + "error_54" )
+         0        489 -   192   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+        17          0 -   192     COND (a12 . equals ( "e" ))
+         3          0 -   192     COND (a4 . equals ( "e" ))
+         0          3 -   192     COND (a19 == 7)
+         0            -   193     return ( input + " " + "error_34" )
+         0        489 -   195   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+       124          0 -   195     COND (a12 . equals ( "e" ))
+        40          0 -   195     COND (a4 . equals ( "e" ))
+         0         40 -   195     COND (a19 == 7)
+         0            -   196     return ( input + " " + "error_25" )
+         0        489 -   198   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 9 ) ))
+       222          0 -   198     COND (a12 . equals ( "e" ))
+         7          0 -   198     COND (a4 . equals ( "e" ))
+         0          7 -   198     COND (a19 == 9)
+         0            -   199     return ( input + " " + "error_59" )
+         0        489 -   201   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+       124          0 -   201     COND (a12 . equals ( "e" ))
+         5          0 -   201     COND (a4 . equals ( "e" ))
+         0          5 -   201     COND (a19 == 6)
+         0            -   202     return ( input + " " + "error_4" )
+        11        478     205   if (( ( a12 . equals ( "e" ) ) && ( ( ( 218 < a1 && ( ( a19 == 9 ) && input . equals ( inputs [ 2 ] ) ) ) && ( a10 == 1 ) ) && ( a4 . equals ( "e" ) ) ) ))
+       489          0 -   205     COND (a12 . equals ( "e" ))
+        11          0 -   205     COND (a4 . equals ( "e" ))
+         3        475     212   else if (( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( input . equals ( inputs [ 4 ] ) && ( ( ( a10 == 3 ) && 218 < a1 ) || ( ( a10 == 4 ) && a1 <= - 13 ) ) ) ) ) && ( a12 . equals ( "e" ) ) ))
+       478          0 -   212     COND (a4 . equals ( "e" ))
+         3          0 -   212     COND (a12 . equals ( "e" ))
+         4        471     218   else if (( ( a10 == 0 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 2 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ))
+       222          0 -   218     COND (a12 . equals ( "e" ))
+        31          0 -   218     COND (- 13 < a1)
+         4          0 -   218     COND (a4 . equals ( "e" ))
+         9        462     225   else if (( ( a19 == 9 ) && ( ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 4 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a10 == 2 ) ) ))
+       427          0 -   225     COND (a4 . equals ( "e" ))
+        68          0 -   225     COND (- 13 < a1)
+        47          0 -   225     COND (a12 . equals ( "e" ))
+        15        447     229   else if (( ( a12 . equals ( "e" ) ) && ( ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 0 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) ) && ( a10 == 2 ) ) && ( a19 == 9 ) ) ))
+       462          0 -   229     COND (a12 . equals ( "e" ))
+       462          0 -   229     COND (a4 . equals ( "e" ))
+        69          0 -   229     COND (- 13 < a1)
+        15          0 -   229     COND (a19 == 9)
+         4        443     233   else if (( ( a19 == 9 ) && ( ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 4 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) ) && ( a4 . equals ( "e" ) ) ) ))
+        79          0 -   233     COND (a12 . equals ( "e" ))
+        15          0 -   233     COND (- 13 < a1)
+         0         15 -   233     COND (38 >= a1)
+        15          0 -   233     COND (38 < a1)
+         4          0 -   233     COND (a4 . equals ( "e" ))
+         4        439     239   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( input . equals ( inputs [ 0 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a10 == 3 ) ))
+       443          0 -   239     COND (a12 . equals ( "e" ))
+        37          0 -   239     COND (a4 . equals ( "e" ))
+         3        436     245   else if (( ( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 10 ) && ( ( a10 == 1 ) && input . equals ( inputs [ 4 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ))
+       439          0 -   245     COND (a4 . equals ( "e" ))
+        10          0 -   245     COND (a12 . equals ( "e" ))
+         1        435     251   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( 218 < a1 && ( ( a19 == 9 ) && input . equals ( inputs [ 0 ] ) ) ) ) && ( a10 == 4 ) ) ))
+       436          0 -   251     COND (a4 . equals ( "e" ))
+       436          0 -   251     COND (a12 . equals ( "e" ))
+         0        435 -   255   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && ( ( input . equals ( inputs [ 0 ] ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a10 == 1 ) ))
+       435          0 -   255     COND (a12 . equals ( "e" ))
+         2          0 -   255     COND (a4 . equals ( "e" ))
+         0          2 -   255     COND (a10 == 1)
+         0            -   260     return "V"
+         1        434     261   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( 218 < a1 && input . equals ( inputs [ 3 ] ) ) ) && ( a19 == 10 ) ) ) && ( a10 == 1 ) ))
+       435          0 -   261     COND (a4 . equals ( "e" ))
+       435          0 -   261     COND (a12 . equals ( "e" ))
+         1          0 -   261     COND (a10 == 1)
+         7        427     265   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( ( a19 == 9 ) && input . equals ( inputs [ 1 ] ) ) && 218 < a1 ) && ( a10 == 1 ) ) ) && ( a4 . equals ( "e" ) ) ))
+       434          0 -   265     COND (a12 . equals ( "e" ))
+         7          0 -   265     COND (a4 . equals ( "e" ))
+         1        426     269   else if (( ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 3 ) && 218 < a1 ) || ( ( a10 == 4 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 1 ] ) ) ) ) && ( a19 == 9 ) ))
+       427          0 -   269     COND (a4 . equals ( "e" ))
+       427          0 -   269     COND (a12 . equals ( "e" ))
+         1          0 -   269     COND (a19 == 9)
+         1        425     275   else if (( ( a19 == 10 ) && ( ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( ( a10 == 0 ) && 218 < a1 ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+        40          0 -   275     COND (a4 . equals ( "e" ))
+         0         10 -   275     COND (38 < a1)
+         0          0 -   275     COND (218 >= a1)
+         0         10 -   275     COND (218 < a1)
+         1          0 -   275     COND (a12 . equals ( "e" ))
+         4        421     282   else if (( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( input . equals ( inputs [ 3 ] ) && ( ( ( a10 == 3 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 4 ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) ))
+       425          0 -   282     COND (a12 . equals ( "e" ))
+         4          0 -   282     COND (a4 . equals ( "e" ))
+         0        421 -   288   else if (( ( ( a19 == 10 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 1 ) && a1 <= - 13 ) || ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 0 ) ) || ( ( a10 == 0 ) && 218 < a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+        39          0 -   288     COND (a12 . equals ( "e" ))
+         0         11 -   288     COND (a10 == 0)
+         0         10 -   288     COND (218 < a1)
+         0          7 -   288     COND (input . equals ( inputs [ 0 ] ))
+         0          0 -   288     COND (a4 . equals ( "e" ))
+         0            -   294     return "V"
+        16        405     295   else if (( ( a19 == 9 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) && ( a4 . equals ( "e" ) ) ) && ( a10 == 2 ) ) ) ))
+       382          0 -   295     COND (a12 . equals ( "e" ))
+       329          0 -   295     COND (- 13 < a1)
+        49          0 -   295     COND (a4 . equals ( "e" ))
+         3        402     302   else if (( ( a12 . equals ( "e" ) ) && ( ( a4 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 && ( a10 == 1 ) ) || ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) ) && input . equals ( inputs [ 4 ] ) ) && ( a19 == 10 ) ) ) ))
+       405          0 -   302     COND (a12 . equals ( "e" ))
+       405          0 -   302     COND (a4 . equals ( "e" ))
+         0         44 -   302     COND (218 >= a1)
+         4        398     309   else if (( ( a19 == 9 ) && ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a10 == 1 ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+       366          0 -   309     COND (a4 . equals ( "e" ))
+         4          0 -   309     COND (a12 . equals ( "e" ))
+         2        396     315   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( input . equals ( inputs [ 3 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) ) && ( a10 == 4 ) ) ))
+       398          0 -   315     COND (a4 . equals ( "e" ))
+       398          0 -   315     COND (a12 . equals ( "e" ))
+         3        393     319   else if (( ( a10 == 0 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ))
+       218          0 -   319     COND (a12 . equals ( "e" ))
+       213          0 -   319     COND (- 13 < a1)
+         3          0 -   319     COND (a4 . equals ( "e" ))
+         0        393 -   323   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 2 ] ) && ( a19 == 10 ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a10 == 1 ) ))
+       393          0 -   323     COND (a12 . equals ( "e" ))
+         0          1 -   323     COND (218 >= a1)
+         0          0 -   323     COND (a4 . equals ( "e" ))
+         0          0 -   323     COND (a10 == 1)
+         0            -   329     return null
+         6        387     330   else if (( ( a19 == 9 ) && ( ( a4 . equals ( "e" ) ) && ( ( a10 == 1 ) && ( ( input . equals ( inputs [ 2 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a12 . equals ( "e" ) ) ) ) ) ))
+       360          0 -   330     COND (a4 . equals ( "e" ))
+         6          0 -   330     COND (- 13 < a1)
+         0          6 -   330     COND (38 >= a1)
+         6          0 -   330     COND (38 < a1)
+         6          0 -   330     COND (218 >= a1)
+         6          0 -   330     COND (a12 . equals ( "e" ))
+         1        386     337   else if (( ( ( ( a10 == 1 ) && ( ( input . equals ( inputs [ 2 ] ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) ) && ( a19 == 10 ) ) && ( a12 . equals ( "e" ) ) ))
+         1          0 -   337     COND (a4 . equals ( "e" ))
+         1          0 -   337     COND (a19 == 10)
+         1          0 -   337     COND (a12 . equals ( "e" ))
+         0        386 -   344   else if (( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 10 ) && ( ( a10 == 1 ) && input . equals ( inputs [ 1 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+        34          0 -   344     COND (a4 . equals ( "e" ))
+        11          0 -   344     COND (a10 == 1)
+         0         11 -   344     COND (input . equals ( inputs [ 1 ] ))
+         0          0 -   344     COND (a12 . equals ( "e" ))
+         0            -   349     return "X"
+         2        384     350   else if (( ( a19 == 9 ) && ( ( ( a4 . equals ( "e" ) ) && ( ( ( ( a10 == 3 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 4 ) ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+       354          0 -   350     COND (a4 . equals ( "e" ))
+         0         10 -   350     COND (218 < a1)
+         2          0 -   350     COND (a12 . equals ( "e" ))
+         1        383     357   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( ( a10 == 3 ) && a1 <= - 13 ) || ( ( ( a10 == 2 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 2 ) ) ) ) && input . equals ( inputs [ 3 ] ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+       384          0 -   357     COND (a12 . equals ( "e" ))
+         0          9 -   357     COND (218 >= a1)
+         1          0 -   357     COND (a4 . equals ( "e" ))
+        12        371     363   else if (( ( a19 == 9 ) && ( ( ( input . equals ( inputs [ 1 ] ) && ( ( 218 < a1 && ( a10 == 0 ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) ))
+        12          0 -   363     COND (a12 . equals ( "e" ))
+        12          0 -   363     COND (a4 . equals ( "e" ))
+        24        347     370   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) && ( a19 == 9 ) ) ) && ( a10 == 0 ) ) ))
+       371          0 -   370     COND (a4 . equals ( "e" ))
+       371          0 -   370     COND (a12 . equals ( "e" ))
+         6        341     376   else if (( ( ( a19 == 9 ) && ( ( input . equals ( inputs [ 3 ] ) && ( ( 218 < a1 && ( a10 == 0 ) ) || ( a1 <= - 13 && ( a10 == 1 ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a12 . equals ( "e" ) ) ))
+         0         14 -   376     COND (a10 == 1)
+         6          0 -   376     COND (a4 . equals ( "e" ))
+         6          0 -   376     COND (a12 . equals ( "e" ))
+        18        323     382   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( a10 == 2 ) && ( input . equals ( inputs [ 3 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+       341          0 -   382     COND (a12 . equals ( "e" ))
+         4          0 -   382     COND (- 13 < a1)
+         4          0 -   382     COND (38 >= a1)
+        18          0 -   382     COND (a4 . equals ( "e" ))
+         2        321     386   else if (( ( a12 . equals ( "e" ) ) && ( ( a4 . equals ( "e" ) ) && ( 218 < a1 && ( ( ( a10 == 1 ) && input . equals ( inputs [ 1 ] ) ) && ( a19 == 10 ) ) ) ) ))
+       323          0 -   386     COND (a12 . equals ( "e" ))
+       323          0 -   386     COND (a4 . equals ( "e" ))
+         2          0 -   386     COND (a19 == 10)
+         1        320     393   else if (( ( ( ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 1 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ) && ( a10 == 3 ) ))
+       321          0 -   393     COND (a12 . equals ( "e" ))
+        13          0 -   393     COND (a4 . equals ( "e" ))
+         3        317     397   else if (( 218 < a1 && ( ( ( ( input . equals ( inputs [ 0 ] ) && ( a10 == 1 ) ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 10 ) ) ))
+        13          0 -   397     COND (a12 . equals ( "e" ))
+        13          0 -   397     COND (a4 . equals ( "e" ))
+         2        315     403   else if (( ( a12 . equals ( "e" ) ) && ( ( ( a19 == 9 ) && ( ( ( ( a10 == 0 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 1 ) ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a4 . equals ( "e" ) ) ) ))
+       317          0 -   403     COND (a12 . equals ( "e" ))
+         2          0 -   403     COND (a4 . equals ( "e" ))
+        11        304     409   else if (( ( a10 == 1 ) && ( ( a4 . equals ( "e" ) ) && ( ( ( ( a12 . equals ( "e" ) ) && input . equals ( inputs [ 4 ] ) ) && ( a19 == 9 ) ) && 218 < a1 ) ) ))
+        74          0 -   409     COND (a4 . equals ( "e" ))
+        74          0 -   409     COND (a12 . equals ( "e" ))
+        11          0 -   409     COND (218 < a1)
+         1        303     415   else if (( ( ( a10 == 1 ) && ( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 10 ) && input . equals ( inputs [ 1 ] ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+        63          0 -   415     COND (a12 . equals ( "e" ))
+         1          0 -   415     COND (- 13 < a1)
+         1          0 -   415     COND (38 >= a1)
+         1          0 -   415     COND (a4 . equals ( "e" ))
+         1        302     421   else if (( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 1 ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 10 ) ) ))
+       303          0 -   421     COND (a12 . equals ( "e" ))
+         1          0 -   421     COND (a4 . equals ( "e" ))
+         1          0 -   421     COND (a19 == 10)
+         3        299     425   else if (( ( ( a4 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 1 ] ) && ( ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) || ( a1 <= - 13 && ( a10 == 3 ) ) ) ) && ( a19 == 9 ) ) ) && ( a12 . equals ( "e" ) ) ))
+       302          0 -   425     COND (a4 . equals ( "e" ))
+         0          8 -   425     COND (a10 == 2)
+         0          5 -   425     COND (a10 == 3)
+         3          0 -   425     COND (a19 == 9)
+         3          0 -   425     COND (a12 . equals ( "e" ))
+         1        298     431   else if (( ( ( a10 == 0 ) && ( ( a12 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 1 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+       175          0 -   431     COND (a12 . equals ( "e" ))
+         0          1 -   431     COND (a1 <= - 13)
+         1          0 -   431     COND (- 13 < a1)
+         1          0 -   431     COND (38 >= a1)
+         1          0 -   431     COND (a19 == 10)
+         1          0 -   431     COND (a4 . equals ( "e" ))
+         3        295     435   else if (( ( ( a19 == 10 ) && ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && input . equals ( inputs [ 2 ] ) ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+        18          0 -   435     COND (a12 . equals ( "e" ))
+         3          0 -   435     COND (input . equals ( inputs [ 2 ] ))
+         3          0 -   435     COND (a4 . equals ( "e" ))
+         4        291     442   else if (( ( a19 == 9 ) && ( ( a4 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 2 ] ) && ( ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) || ( ( a10 == 3 ) && a1 <= - 13 ) ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+       274          0 -   442     COND (a4 . equals ( "e" ))
+         0          1 -   442     COND (a10 == 2)
+         3          0 -   442     COND (218 < a1)
+         4          0 -   442     COND (a12 . equals ( "e" ))
+         3        288     448   else if (( ( ( ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && input . equals ( inputs [ 0 ] ) ) && ( a10 == 1 ) ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 10 ) ))
+         3          0 -   448     COND (a12 . equals ( "e" ))
+         3          0 -   448     COND (a4 . equals ( "e" ))
+         3          0 -   448     COND (a19 == 10)
+         4        284     455   else if (( ( ( a10 == 4 ) && ( 218 < a1 && ( ( input . equals ( inputs [ 1 ] ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a19 == 9 ) ))
+         4          0 -   455     COND (a12 . equals ( "e" ))
+         4          0 -   455     COND (a4 . equals ( "e" ))
+         4          0 -   455     COND (a19 == 9)
+        29        255     461   else if (( ( a12 . equals ( "e" ) ) && ( ( ( ( input . equals ( inputs [ 3 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ) && ( a10 == 0 ) ) ))
+       284          0 -   461     COND (a12 . equals ( "e" ))
+        36          0 -   461     COND (a4 . equals ( "e" ))
+         2        253     467   else if (( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) && ( a12 . equals ( "e" ) ) ) && ( a19 == 9 ) ) && ( a10 == 4 ) ) ))
+       255          0 -   467     COND (a4 . equals ( "e" ))
+        31          0 -   467     COND (a12 . equals ( "e" ))
+        31          0 -   467     COND (a19 == 9)
+         2        251     474   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( a10 == 2 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) || ( a1 <= - 13 && ( a10 == 3 ) ) ) && input . equals ( inputs [ 4 ] ) ) && ( a19 == 9 ) ) ) && ( a12 . equals ( "e" ) ) ))
+       253          0 -   474     COND (a4 . equals ( "e" ))
+         0          2 -   474     COND (218 >= a1)
+         2          0 -   474     COND (a19 == 9)
+         2          0 -   474     COND (a12 . equals ( "e" ))
+         3        248     480   else if (( 218 < a1 && ( ( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && input . equals ( inputs [ 4 ] ) ) ) && ( a10 == 4 ) ) && ( a4 . equals ( "e" ) ) ) ))
+        62          0 -   480     COND (a12 . equals ( "e" ))
+        62          0 -   480     COND (a19 == 9)
+         3          0 -   480     COND (a4 . equals ( "e" ))
+         0        248 -   486   else if (( ( ( ( ( input . equals ( inputs [ 2 ] ) && ( a4 . equals ( "e" ) ) ) && 218 < a1 ) && ( a10 == 4 ) ) && ( a19 == 9 ) ) && ( a12 . equals ( "e" ) ) ))
+        29          0 -   486     COND (a4 . equals ( "e" ))
+         0         29 -   486     COND (218 < a1)
+         0          0 -   486     COND (a10 == 4)
+         0          0 -   486     COND (a19 == 9)
+         0          0 -   486     COND (a12 . equals ( "e" ))
+         0            -   492     return null
+         4        244     493   else if (( ( ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 3 ] ) && ( a10 == 1 ) ) ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a19 == 10 ) ))
+       248          0 -   493     COND (a4 . equals ( "e" ))
+        20          0 -   493     COND (a12 . equals ( "e" ))
+         7        237     499   else if (( ( a4 . equals ( "e" ) ) && ( ( a10 == 1 ) && ( ( a19 == 9 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) ) ) ) ))
+       244          0 -   499     COND (a4 . equals ( "e" ))
+        43          0 -   499     COND (a12 . equals ( "e" ))
+         0         42 -   499     COND (38 >= a1)
+         0        237 -   505   else if (( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( ( a1 <= - 13 && ( a10 == 3 ) ) || ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+       237          0 -   505     COND (a4 . equals ( "e" ))
+         0         14 -   505     COND (a10 == 2)
+         0          2 -   505     COND (input . equals ( inputs [ 0 ] ))
+         0          0 -   505     COND (a12 . equals ( "e" ))
+         0            -   510     return null
+         2        235     511   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a19 == 9 ) && ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 3 ] ) ) && ( a10 == 3 ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+       237          0 -   511     COND (a4 . equals ( "e" ))
+         2          0 -   511     COND (a12 . equals ( "e" ))
+         1        234     517   else if (( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 4 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) && ( a10 == 3 ) ) ) ))
+       235          0 -   517     COND (a12 . equals ( "e" ))
+       221          0 -   517     COND (a4 . equals ( "e" ))
+        46          0 -   517     COND (- 13 < a1)
+         9          0 -   517     COND (38 < a1)
+        26        208     523   else if (( ( ( ( ( input . equals ( inputs [ 0 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a10 == 0 ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ) && ( a12 . equals ( "e" ) ) ))
+        26          0 -   523     COND (a19 == 9)
+        26          0 -   523     COND (a4 . equals ( "e" ))
+        26          0 -   523     COND (a12 . equals ( "e" ))
+         7        201     529   else if (( ( ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 0 ) && 218 < a1 ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ))
+       208          0 -   529     COND (a12 . equals ( "e" ))
+         7          0 -   529     COND (a19 == 9)
+         7          0 -   529     COND (a4 . equals ( "e" ))
+        27        174     535   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) && ( a19 == 9 ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a10 == 0 ) ))
+       201          0 -   535     COND (a4 . equals ( "e" ))
+        29          0 -   535     COND (a19 == 9)
+        29          0 -   535     COND (a12 . equals ( "e" ))
+        10        164     542   else if (( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( a10 == 1 ) && ( ( 218 < a1 && input . equals ( inputs [ 0 ] ) ) && ( a4 . equals ( "e" ) ) ) ) ) ))
+       174          0 -   542     COND (a12 . equals ( "e" ))
+        10          0 -   542     COND (a4 . equals ( "e" ))
+         3        161     548   else if (( ( ( ( ( input . equals ( inputs [ 4 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) && ( a10 == 0 ) ) && ( a4 . equals ( "e" ) ) ) && ( a12 . equals ( "e" ) ) ))
+        41          0 -   548     COND (- 13 < a1)
+         3          0 -   548     COND (a10 == 0)
+         3          0 -   548     COND (a4 . equals ( "e" ))
+         3          0 -   548     COND (a12 . equals ( "e" ))
+         2        159     555   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 3 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a10 == 0 ) ))
+       161          0 -   555     COND (a4 . equals ( "e" ))
+        16          0 -   555     COND (- 13 < a1)
+         5          0 -   555     COND (a19 == 10)
+         5          0 -   555     COND (a12 . equals ( "e" ))
+         3        156     559   else if (( ( ( ( ( a4 . equals ( "e" ) ) && ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a10 == 1 ) ) && ( a19 == 10 ) ))
+       159          0 -   559     COND (a4 . equals ( "e" ))
+         4          0 -   559     COND (a12 . equals ( "e" ))
+         3          0 -   559     COND (a19 == 10)
+         4        152     566   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( a19 == 9 ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a10 == 4 ) ))
+       156          0 -   566     COND (a4 . equals ( "e" ))
+        38          0 -   566     COND (a12 . equals ( "e" ))
+         2        150     572   else if (( ( ( a10 == 3 ) && ( ( ( a19 == 9 ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+         4          0 -   572     COND (a19 == 9)
+         1          0 -   572     COND (218 >= a1)
+         2          0 -   572     COND (a12 . equals ( "e" ))
+         2          0 -   572     COND (a4 . equals ( "e" ))
+         0        150 -   579   else if (( ( ( ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && input . equals ( inputs [ 3 ] ) ) ) && ( a19 == 10 ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ))
+        31          0 -   579     COND (a12 . equals ( "e" ))
+         0          3 -   579     COND (- 13 < a1)
+         0          0 -   579     COND (38 >= a1)
+         0          0 -   579     COND (a4 . equals ( "e" ))
+         0            -   585     return "X"
+         3        147     586   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 && ( a10 == 1 ) ) || ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) ) && input . equals ( inputs [ 3 ] ) ) && ( a19 == 10 ) ) ) && ( a12 . equals ( "e" ) ) ))
+       150          0 -   586     COND (a4 . equals ( "e" ))
+         0         21 -   586     COND (218 >= a1)
+         3          0 -   586     COND (a19 == 10)
+         3          0 -   586     COND (a12 . equals ( "e" ))
+        34        113     593   else if (( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( a12 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 4 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a10 == 0 ) ) ) ) ))
+       147          0 -   593     COND (a4 . equals ( "e" ))
+       144          0 -   593     COND (a12 . equals ( "e" ))
+        34          0 -   593     COND (- 13 < a1)
+        34          0 -   593     COND (38 >= a1)
+         0          0 -   593     COND (38 < a1)
+         0          0 -   593     COND (218 >= a1)
+        34          0 -   593     COND (a10 == 0)
+         8        105     597   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a10 == 1 ) && ( 218 < a1 && ( ( a19 == 9 ) && input . equals ( inputs [ 3 ] ) ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+       113          0 -   597     COND (a12 . equals ( "e" ))
+        17          0 -   597     COND (a19 == 9)
+         8          0 -   597     COND (a4 . equals ( "e" ))
+         2        103     601   else if (( ( a19 == 9 ) && ( ( ( a10 == 4 ) && ( 218 < a1 && ( ( a4 . equals ( "e" ) ) && input . equals ( inputs [ 3 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+         3          0 -   601     COND (a4 . equals ( "e" ))
+         2          0 -   601     COND (a12 . equals ( "e" ))
+         0        103 -   607   else if (( ( a19 == 10 ) && ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 1 ] ) && ( ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) ) ) ) ))
+         3          0 -   607     COND (a4 . equals ( "e" ))
+         3          0 -   607     COND (a12 . equals ( "e" ))
+         0          3 -   607     COND (input . equals ( inputs [ 1 ] ))
+         0          0 -   607     COND (a10 == 0)
+         0          0 -   607     COND (38 < a1)
+         0          0 -   607     COND (218 >= a1)
+         0          0 -   607     COND (218 < a1)
+         0          0 -   607     COND (a10 == 0)
+         0          0 -   607     COND (a10 == 1)
+         0          0 -   607     COND (a1 <= - 13)
+         0            -   613     return "X"
+        12         91     614   else if (( ( ( ( ( ( 218 < a1 && ( a10 == 0 ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 0 ] ) ) && ( a4 . equals ( "e" ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a19 == 9 ) ))
+        12          0 -   614     COND (a4 . equals ( "e" ))
+        12          0 -   614     COND (a12 . equals ( "e" ))
+        12          0 -   614     COND (a19 == 9)
+         1         90     620   else if (( ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 0 ] ) && ( ( ( a10 == 3 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 4 ) ) ) ) ) ) && ( a19 == 9 ) ))
+        91          0 -   620     COND (a4 . equals ( "e" ))
+        91          0 -   620     COND (a12 . equals ( "e" ))
+         0          4 -   620     COND (a10 == 3)
+         0          0 -   620     COND (218 < a1)
+         1          0 -   620     COND (a10 == 4)
+         1          0 -   620     COND (a19 == 9)
+         5         85     626   else if (( ( ( a10 == 1 ) && ( ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 3 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a19 == 9 ) ))
+        19          0 -   626     COND (a12 . equals ( "e" ))
+         5          0 -   626     COND (- 13 < a1)
+         0          5 -   626     COND (38 >= a1)
+         5          0 -   626     COND (38 < a1)
+         5          0 -   626     COND (218 >= a1)
+         5          0 -   626     COND (a4 . equals ( "e" ))
+         5          0 -   626     COND (a19 == 9)
+         2         83     633   else if (( ( ( a10 == 4 ) && ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 9 ) ) ) && ( a12 . equals ( "e" ) ) ))
+         9          0 -   633     COND (- 13 < a1)
+         3          0 -   633     COND (38 < a1)
+         2          0 -   633     COND (a4 . equals ( "e" ))
+         2          0 -   633     COND (a19 == 9)
+         2          0 -   633     COND (a12 . equals ( "e" ))
+         8         75     637   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) && ( a12 . equals ( "e" ) ) ) && ( a19 == 9 ) ) ) && ( a10 == 2 ) ))
+        83          0 -   637     COND (a4 . equals ( "e" ))
+        64          0 -   637     COND (- 13 < a1)
+         8          0 -   637     COND (a12 . equals ( "e" ))
+         8          0 -   637     COND (a19 == 9)
+         8          0 -   637     COND (a10 == 2)
+         3         72     641   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( a10 == 4 ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a19 == 9 ) ))
+        75          0 -   641     COND (a12 . equals ( "e" ))
+         7          0 -   641     COND (- 13 < a1)
+         2          0 -   641     COND (38 < a1)
+         3          0 -   641     COND (a4 . equals ( "e" ))
+         3          0 -   641     COND (a19 == 9)
+
+-----------------------------------------------------------------------------
+
+         1                651 FUNCTION Problem10::main()
+         0            -   691     catch (IllegalArgumentException e)
+
+-----------------------------------------------------------------------------
+
+
+
+SUMMARY
+=======
+
+Source files       : 1
+Headers extracted  : 0
+Functions          : 3
+Source lines       : 701
+TER                : 75 % (1741/2317) condition
+TER                : 82 % (365/443) statement
+*****************************************************************************
+*         CTC++, Test Coverage Analyzer for C/C++, Version 9.1.1            *
+*                                                                           *
+*                          UNTESTED CODE LISTING                            *
+*                                                                           *
+*                    Copyright (c) 1993-2013 Testwell Oy                    *
+*             Copyright (c) 2013-2020 Verifysoft Technology GmbH            *
+*****************************************************************************
+
+
+Symbol file(s) used   : MON.sym (Thu Dec 30 17:00:29 2021)
+Data file(s) used     : MON.dat (Thu Dec 30 17:00:34 2021)
+Listing produced at   : Thu Dec 30 17:00:35 2021
+Coverage view         : Reduced to decision coverage
+
+
+
+MONITORED SOURCE FILE : Problem10.java
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+         0            -    16 FUNCTION Problem10::getInputs()
+         0            -    17   return inputs
+
+-----------------------------------------------------------------------------
+
+       581                 20 FUNCTION Problem10::calculateOutput()
+         0        571 -    36   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -    37     return ( input + " " + "error_28" )
+         0        567 -    45   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -    46     return ( input + " " + "error_24" )
+         0        489 -    69   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -    70     return ( input + " " + "error_49" )
+         0        489 -    72   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -    73     return ( input + " " + "error_56" )
+         0        489 -    75   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -    76     return ( input + " " + "error_6" )
+         0        489 -    78   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -    79     return ( input + " " + "error_32" )
+         0        489 -    81   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -    82     return ( input + " " + "error_39" )
+         0        489 -    84   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -    85     return ( input + " " + "error_21" )
+         0        489 -    87   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -    88     return ( input + " " + "error_20" )
+         0        489 -    90   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -    91     return ( input + " " + "error_19" )
+         0        489 -    93   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -    94     return ( input + " " + "error_17" )
+         0        489 -    96   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -    97     return ( input + " " + "error_14" )
+         0        489 -    99   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   100     return ( input + " " + "error_38" )
+         0        489 -   102   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   103     return ( input + " " + "error_16" )
+         0        489 -   105   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   106     return ( input + " " + "error_30" )
+         0        489 -   108   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   109     return ( input + " " + "error_43" )
+         0        489 -   111   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   112     return ( input + " " + "error_3" )
+         0        489 -   114   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   115     return ( input + " " + "error_22" )
+         0        489 -   117   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   118     return ( input + " " + "error_45" )
+         0        489 -   120   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   121     return ( input + " " + "error_36" )
+         0        489 -   123   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   124     return ( input + " " + "error_8" )
+         0        489 -   126   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   127     return ( input + " " + "error_52" )
+         0        489 -   129   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   130     return ( input + " " + "error_53" )
+         0        489 -   132   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   133     return ( input + " " + "error_31" )
+         0        489 -   135   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   136     return ( input + " " + "error_33" )
+         0        489 -   138   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   139     return ( input + " " + "error_7" )
+         0        489 -   141   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   142     return ( input + " " + "error_23" )
+         0        489 -   144   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   145     return ( input + " " + "error_0" )
+         0        489 -   147   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   148     return ( input + " " + "error_10" )
+         0        489 -   150   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   151     return ( input + " " + "error_40" )
+         0        489 -   153   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   154     return ( input + " " + "error_51" )
+         0        489 -   156   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   157     return ( input + " " + "error_35" )
+         0        489 -   159   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   160     return ( input + " " + "error_5" )
+         0        489 -   162   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   163     return ( input + " " + "error_1" )
+         0        489 -   165   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   166     return ( input + " " + "error_37" )
+         0        489 -   168   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   169     return ( input + " " + "error_13" )
+         0        489 -   171   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   172     return ( input + " " + "error_9" )
+         0        489 -   174   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   175     return ( input + " " + "error_44" )
+         0        489 -   177   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   178     return ( input + " " + "error_18" )
+         0        489 -   180   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   181     return ( input + " " + "error_2" )
+         0        489 -   183   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   184     return ( input + " " + "error_27" )
+         0        489 -   186   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   187     return ( input + " " + "error_11" )
+         0        489 -   189   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+         0            -   190     return ( input + " " + "error_54" )
+         0        489 -   192   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   193     return ( input + " " + "error_34" )
+         0        489 -   195   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+         0            -   196     return ( input + " " + "error_25" )
+         0        489 -   198   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 9 ) ))
+         0            -   199     return ( input + " " + "error_59" )
+         0        489 -   201   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+         0            -   202     return ( input + " " + "error_4" )
+         0        435 -   255   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && ( ( input . equals ( inputs [ 0 ] ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a10 == 1 ) ))
+         0            -   260     return "V"
+         0        421 -   288   else if (( ( ( a19 == 10 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 1 ) && a1 <= - 13 ) || ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 0 ) ) || ( ( a10 == 0 ) && 218 < a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+         0            -   294     return "V"
+         0        393 -   323   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 2 ] ) && ( a19 == 10 ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a10 == 1 ) ))
+         0            -   329     return null
+         0        386 -   344   else if (( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 10 ) && ( ( a10 == 1 ) && input . equals ( inputs [ 1 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+         0            -   349     return "X"
+         0        248 -   486   else if (( ( ( ( ( input . equals ( inputs [ 2 ] ) && ( a4 . equals ( "e" ) ) ) && 218 < a1 ) && ( a10 == 4 ) ) && ( a19 == 9 ) ) && ( a12 . equals ( "e" ) ) ))
+         0            -   492     return null
+         0        237 -   505   else if (( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( ( a1 <= - 13 && ( a10 == 3 ) ) || ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+         0            -   510     return null
+         0        150 -   579   else if (( ( ( ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && input . equals ( inputs [ 3 ] ) ) ) && ( a19 == 10 ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ))
+         0            -   585     return "X"
+         0        103 -   607   else if (( ( a19 == 10 ) && ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 1 ] ) && ( ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) ) ) ) ))
+         0            -   613     return "X"
+
+-----------------------------------------------------------------------------
+
+         1                651 FUNCTION Problem10::main()
+         0            -   691     catch (IllegalArgumentException e)
+
+-----------------------------------------------------------------------------
+
+
+
+SUMMARY
+=======
+
+Source files       : 1
+Headers extracted  : 0
+Functions          : 3
+Source lines       : 701
+TER                : 73 % (308/421) decision
+TER                : 82 % (365/443) statement
+*****************************************************************************
+*         CTC++, Test Coverage Analyzer for C/C++, Version 9.1.1            *
+*                                                                           *
+*                          UNTESTED CODE LISTING                            *
+*                                                                           *
+*                    Copyright (c) 1993-2013 Testwell Oy                    *
+*             Copyright (c) 2013-2020 Verifysoft Technology GmbH            *
+*****************************************************************************
+
+
+Symbol file(s) used   : MON.sym (Thu Dec 30 17:00:29 2021)
+Data file(s) used     : MON.dat (Thu Dec 30 17:00:34 2021)
+Listing produced at   : Thu Dec 30 17:00:35 2021
+Coverage view         : Reduced to MC/DC coverage
+
+
+
+MONITORED SOURCE FILE : Problem10.java
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+         0            -    16 FUNCTION Problem10::getInputs()
+         0            -    17   return inputs
+
+-----------------------------------------------------------------------------
+
+       581                 20 FUNCTION Problem10::calculateOutput()
+         1        580      21   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    21     MC/DC (cond 2): 1 - 6
+                      -    21     MC/DC (cond 5): 1 - 3
+         1        579      24   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    24     MC/DC (cond 2): 1 - 6
+                      -    24     MC/DC (cond 5): 1 - 3
+         3        576      27   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -    27     MC/DC (cond 2): 1 - 5
+                      -    27     MC/DC (cond 4): 1 - 3
+         2        574      30   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    30     MC/DC (cond 2): 1 - 5
+                      -    30     MC/DC (cond 4): 1 - 3
+         3        571      33   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -    33     MC/DC (cond 2): 1 - 5
+                      -    33     MC/DC (cond 4): 1 - 3
+         0        571 -    36   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    36     MC/DC (cond 1): 1 - 7
+                      -    36     MC/DC (cond 2): 1 - 6
+                      -    36     MC/DC (cond 3): 1 - 5
+                      -    36     MC/DC (cond 4): 1 - 4
+                      -    36     MC/DC (cond 5): 1 - 3
+                      -    36     MC/DC (cond 6): 1 - 2
+         0            -    37     return ( input + " " + "error_28" )
+         2        569      39   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -    39     MC/DC (cond 2): 1 - 6
+                      -    39     MC/DC (cond 5): 1 - 3
+         2        567      42   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    42     MC/DC (cond 2): 1 - 5
+                      -    42     MC/DC (cond 4): 1 - 3
+         0        567 -    45   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    45     MC/DC (cond 1): 1 - 7
+                      -    45     MC/DC (cond 2): 1 - 6
+                      -    45     MC/DC (cond 3): 1 - 5
+                      -    45     MC/DC (cond 4): 1 - 4
+                      -    45     MC/DC (cond 5): 1 - 3
+                      -    45     MC/DC (cond 6): 1 - 2
+         0            -    46     return ( input + " " + "error_24" )
+         2        565      48   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    48     MC/DC (cond 2): 1 - 6
+                      -    48     MC/DC (cond 5): 1 - 3
+                      -    48     MC/DC (cond 6): 1 - 2
+         4        561      51   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    51     MC/DC (cond 2): 1 - 5
+                      -    51     MC/DC (cond 4): 1 - 3
+        16        545      54   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    54     MC/DC (cond 2): 1 - 5
+                      -    54     MC/DC (cond 4): 1 - 3
+        11        534      57   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    57     MC/DC (cond 2): 1 - 5
+                      -    57     MC/DC (cond 4): 1 - 3
+         6        528      60   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    60     MC/DC (cond 2): 1 - 5
+                      -    60     MC/DC (cond 4): 1 - 3
+        12        516      63   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    63     MC/DC (cond 2): 1 - 6
+                      -    63     MC/DC (cond 5): 1 - 3
+                      -    63     MC/DC (cond 6): 1 - 2
+        27        489      66   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    66     MC/DC (cond 2): 1 - 5
+                      -    66     MC/DC (cond 4): 1 - 3
+         0        489 -    69   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    69     MC/DC (cond 1): 1 - 7
+                      -    69     MC/DC (cond 2): 1 - 6
+                      -    69     MC/DC (cond 3): 1 - 5
+                      -    69     MC/DC (cond 4): 1 - 4
+                      -    69     MC/DC (cond 5): 1 - 3
+                      -    69     MC/DC (cond 6): 1 - 2
+         0            -    70     return ( input + " " + "error_49" )
+         0        489 -    72   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    72     MC/DC (cond 1): 1 - 7
+                      -    72     MC/DC (cond 2): 1 - 6
+                      -    72     MC/DC (cond 3): 1 - 5
+                      -    72     MC/DC (cond 4): 1 - 4
+                      -    72     MC/DC (cond 5): 1 - 3
+                      -    72     MC/DC (cond 6): 1 - 2
+         0            -    73     return ( input + " " + "error_56" )
+         0        489 -    75   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -    75     MC/DC (cond 1): 1 - 6
+                      -    75     MC/DC (cond 2): 1 - 5
+                      -    75     MC/DC (cond 3): 1 - 4
+                      -    75     MC/DC (cond 4): 1 - 3
+                      -    75     MC/DC (cond 5): 1 - 2
+         0            -    76     return ( input + " " + "error_6" )
+         0        489 -    78   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    78     MC/DC (cond 1): 1 - 7
+                      -    78     MC/DC (cond 2): 1 - 6
+                      -    78     MC/DC (cond 3): 1 - 5
+                      -    78     MC/DC (cond 4): 1 - 4
+                      -    78     MC/DC (cond 5): 1 - 3
+                      -    78     MC/DC (cond 6): 1 - 2
+         0            -    79     return ( input + " " + "error_32" )
+         0        489 -    81   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -    81     MC/DC (cond 1): 1 - 6
+                      -    81     MC/DC (cond 2): 1 - 5
+                      -    81     MC/DC (cond 3): 1 - 4
+                      -    81     MC/DC (cond 4): 1 - 3
+                      -    81     MC/DC (cond 5): 1 - 2
+         0            -    82     return ( input + " " + "error_39" )
+         0        489 -    84   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    84     MC/DC (cond 1): 1 - 7
+                      -    84     MC/DC (cond 2): 1 - 6
+                      -    84     MC/DC (cond 3): 1 - 5
+                      -    84     MC/DC (cond 4): 1 - 4
+                      -    84     MC/DC (cond 5): 1 - 3
+                      -    84     MC/DC (cond 6): 1 - 2
+         0            -    85     return ( input + " " + "error_21" )
+         0        489 -    87   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    87     MC/DC (cond 1): 1 - 7
+                      -    87     MC/DC (cond 2): 1 - 6
+                      -    87     MC/DC (cond 3): 1 - 5
+                      -    87     MC/DC (cond 4): 1 - 4
+                      -    87     MC/DC (cond 5): 1 - 3
+                      -    87     MC/DC (cond 6): 1 - 2
+         0            -    88     return ( input + " " + "error_20" )
+         0        489 -    90   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    90     MC/DC (cond 1): 1 - 6
+                      -    90     MC/DC (cond 2): 1 - 5
+                      -    90     MC/DC (cond 3): 1 - 4
+                      -    90     MC/DC (cond 4): 1 - 3
+                      -    90     MC/DC (cond 5): 1 - 2
+         0            -    91     return ( input + " " + "error_19" )
+         0        489 -    93   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -    93     MC/DC (cond 1): 1 - 7
+                      -    93     MC/DC (cond 2): 1 - 6
+                      -    93     MC/DC (cond 3): 1 - 5
+                      -    93     MC/DC (cond 4): 1 - 4
+                      -    93     MC/DC (cond 5): 1 - 3
+                      -    93     MC/DC (cond 6): 1 - 2
+         0            -    94     return ( input + " " + "error_17" )
+         0        489 -    96   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -    96     MC/DC (cond 1): 1 - 6
+                      -    96     MC/DC (cond 2): 1 - 5
+                      -    96     MC/DC (cond 3): 1 - 4
+                      -    96     MC/DC (cond 4): 1 - 3
+                      -    96     MC/DC (cond 5): 1 - 2
+         0            -    97     return ( input + " " + "error_14" )
+         0        489 -    99   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -    99     MC/DC (cond 1): 1 - 6
+                      -    99     MC/DC (cond 2): 1 - 5
+                      -    99     MC/DC (cond 3): 1 - 4
+                      -    99     MC/DC (cond 4): 1 - 3
+                      -    99     MC/DC (cond 5): 1 - 2
+         0            -   100     return ( input + " " + "error_38" )
+         0        489 -   102   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   102     MC/DC (cond 1): 1 - 7
+                      -   102     MC/DC (cond 2): 1 - 6
+                      -   102     MC/DC (cond 3): 1 - 5
+                      -   102     MC/DC (cond 4): 1 - 4
+                      -   102     MC/DC (cond 5): 1 - 3
+                      -   102     MC/DC (cond 6): 1 - 2
+         0            -   103     return ( input + " " + "error_16" )
+         0        489 -   105   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   105     MC/DC (cond 1): 1 - 6
+                      -   105     MC/DC (cond 2): 1 - 5
+                      -   105     MC/DC (cond 3): 1 - 4
+                      -   105     MC/DC (cond 4): 1 - 3
+                      -   105     MC/DC (cond 5): 1 - 2
+         0            -   106     return ( input + " " + "error_30" )
+         0        489 -   108   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   108     MC/DC (cond 1): 1 - 6
+                      -   108     MC/DC (cond 2): 1 - 5
+                      -   108     MC/DC (cond 3): 1 - 4
+                      -   108     MC/DC (cond 4): 1 - 3
+                      -   108     MC/DC (cond 5): 1 - 2
+         0            -   109     return ( input + " " + "error_43" )
+         0        489 -   111   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   111     MC/DC (cond 1): 1 - 6
+                      -   111     MC/DC (cond 2): 1 - 5
+                      -   111     MC/DC (cond 3): 1 - 4
+                      -   111     MC/DC (cond 4): 1 - 3
+                      -   111     MC/DC (cond 5): 1 - 2
+         0            -   112     return ( input + " " + "error_3" )
+         0        489 -   114   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   114     MC/DC (cond 1): 1 - 6
+                      -   114     MC/DC (cond 2): 1 - 5
+                      -   114     MC/DC (cond 3): 1 - 4
+                      -   114     MC/DC (cond 4): 1 - 3
+                      -   114     MC/DC (cond 5): 1 - 2
+         0            -   115     return ( input + " " + "error_22" )
+         0        489 -   117   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   117     MC/DC (cond 1): 1 - 7
+                      -   117     MC/DC (cond 2): 1 - 6
+                      -   117     MC/DC (cond 3): 1 - 5
+                      -   117     MC/DC (cond 4): 1 - 4
+                      -   117     MC/DC (cond 5): 1 - 3
+                      -   117     MC/DC (cond 6): 1 - 2
+         0            -   118     return ( input + " " + "error_45" )
+         0        489 -   120   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   120     MC/DC (cond 1): 1 - 7
+                      -   120     MC/DC (cond 2): 1 - 6
+                      -   120     MC/DC (cond 3): 1 - 5
+                      -   120     MC/DC (cond 4): 1 - 4
+                      -   120     MC/DC (cond 5): 1 - 3
+                      -   120     MC/DC (cond 6): 1 - 2
+         0            -   121     return ( input + " " + "error_36" )
+         0        489 -   123   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   123     MC/DC (cond 1): 1 - 7
+                      -   123     MC/DC (cond 2): 1 - 6
+                      -   123     MC/DC (cond 3): 1 - 5
+                      -   123     MC/DC (cond 4): 1 - 4
+                      -   123     MC/DC (cond 5): 1 - 3
+                      -   123     MC/DC (cond 6): 1 - 2
+         0            -   124     return ( input + " " + "error_8" )
+         0        489 -   126   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   126     MC/DC (cond 1): 1 - 7
+                      -   126     MC/DC (cond 2): 1 - 6
+                      -   126     MC/DC (cond 3): 1 - 5
+                      -   126     MC/DC (cond 4): 1 - 4
+                      -   126     MC/DC (cond 5): 1 - 3
+                      -   126     MC/DC (cond 6): 1 - 2
+         0            -   127     return ( input + " " + "error_52" )
+         0        489 -   129   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   129     MC/DC (cond 1): 1 - 7
+                      -   129     MC/DC (cond 2): 1 - 6
+                      -   129     MC/DC (cond 3): 1 - 5
+                      -   129     MC/DC (cond 4): 1 - 4
+                      -   129     MC/DC (cond 5): 1 - 3
+                      -   129     MC/DC (cond 6): 1 - 2
+         0            -   130     return ( input + " " + "error_53" )
+         0        489 -   132   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   132     MC/DC (cond 1): 1 - 6
+                      -   132     MC/DC (cond 2): 1 - 5
+                      -   132     MC/DC (cond 3): 1 - 4
+                      -   132     MC/DC (cond 4): 1 - 3
+                      -   132     MC/DC (cond 5): 1 - 2
+         0            -   133     return ( input + " " + "error_31" )
+         0        489 -   135   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   135     MC/DC (cond 1): 1 - 7
+                      -   135     MC/DC (cond 2): 1 - 6
+                      -   135     MC/DC (cond 3): 1 - 5
+                      -   135     MC/DC (cond 4): 1 - 4
+                      -   135     MC/DC (cond 5): 1 - 3
+                      -   135     MC/DC (cond 6): 1 - 2
+         0            -   136     return ( input + " " + "error_33" )
+         0        489 -   138   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   138     MC/DC (cond 1): 1 - 6
+                      -   138     MC/DC (cond 2): 1 - 5
+                      -   138     MC/DC (cond 3): 1 - 4
+                      -   138     MC/DC (cond 4): 1 - 3
+                      -   138     MC/DC (cond 5): 1 - 2
+         0            -   139     return ( input + " " + "error_7" )
+         0        489 -   141   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   141     MC/DC (cond 1): 1 - 6
+                      -   141     MC/DC (cond 2): 1 - 5
+                      -   141     MC/DC (cond 3): 1 - 4
+                      -   141     MC/DC (cond 4): 1 - 3
+                      -   141     MC/DC (cond 5): 1 - 2
+         0            -   142     return ( input + " " + "error_23" )
+         0        489 -   144   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   144     MC/DC (cond 1): 1 - 7
+                      -   144     MC/DC (cond 2): 1 - 6
+                      -   144     MC/DC (cond 3): 1 - 5
+                      -   144     MC/DC (cond 4): 1 - 4
+                      -   144     MC/DC (cond 5): 1 - 3
+                      -   144     MC/DC (cond 6): 1 - 2
+         0            -   145     return ( input + " " + "error_0" )
+         0        489 -   147   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   147     MC/DC (cond 1): 1 - 6
+                      -   147     MC/DC (cond 2): 1 - 5
+                      -   147     MC/DC (cond 3): 1 - 4
+                      -   147     MC/DC (cond 4): 1 - 3
+                      -   147     MC/DC (cond 5): 1 - 2
+         0            -   148     return ( input + " " + "error_10" )
+         0        489 -   150   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   150     MC/DC (cond 1): 1 - 7
+                      -   150     MC/DC (cond 2): 1 - 6
+                      -   150     MC/DC (cond 3): 1 - 5
+                      -   150     MC/DC (cond 4): 1 - 4
+                      -   150     MC/DC (cond 5): 1 - 3
+                      -   150     MC/DC (cond 6): 1 - 2
+         0            -   151     return ( input + " " + "error_40" )
+         0        489 -   153   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   153     MC/DC (cond 1): 1 - 6
+                      -   153     MC/DC (cond 2): 1 - 5
+                      -   153     MC/DC (cond 3): 1 - 4
+                      -   153     MC/DC (cond 4): 1 - 3
+                      -   153     MC/DC (cond 5): 1 - 2
+         0            -   154     return ( input + " " + "error_51" )
+         0        489 -   156   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   156     MC/DC (cond 1): 1 - 6
+                      -   156     MC/DC (cond 2): 1 - 5
+                      -   156     MC/DC (cond 3): 1 - 4
+                      -   156     MC/DC (cond 4): 1 - 3
+                      -   156     MC/DC (cond 5): 1 - 2
+         0            -   157     return ( input + " " + "error_35" )
+         0        489 -   159   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   159     MC/DC (cond 1): 1 - 7
+                      -   159     MC/DC (cond 2): 1 - 6
+                      -   159     MC/DC (cond 3): 1 - 5
+                      -   159     MC/DC (cond 4): 1 - 4
+                      -   159     MC/DC (cond 5): 1 - 3
+                      -   159     MC/DC (cond 6): 1 - 2
+         0            -   160     return ( input + " " + "error_5" )
+         0        489 -   162   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   162     MC/DC (cond 1): 1 - 7
+                      -   162     MC/DC (cond 2): 1 - 6
+                      -   162     MC/DC (cond 3): 1 - 5
+                      -   162     MC/DC (cond 4): 1 - 4
+                      -   162     MC/DC (cond 5): 1 - 3
+                      -   162     MC/DC (cond 6): 1 - 2
+         0            -   163     return ( input + " " + "error_1" )
+         0        489 -   165   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   165     MC/DC (cond 1): 1 - 7
+                      -   165     MC/DC (cond 2): 1 - 6
+                      -   165     MC/DC (cond 3): 1 - 5
+                      -   165     MC/DC (cond 4): 1 - 4
+                      -   165     MC/DC (cond 5): 1 - 3
+                      -   165     MC/DC (cond 6): 1 - 2
+         0            -   166     return ( input + " " + "error_37" )
+         0        489 -   168   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   168     MC/DC (cond 1): 1 - 7
+                      -   168     MC/DC (cond 2): 1 - 6
+                      -   168     MC/DC (cond 3): 1 - 5
+                      -   168     MC/DC (cond 4): 1 - 4
+                      -   168     MC/DC (cond 5): 1 - 3
+                      -   168     MC/DC (cond 6): 1 - 2
+         0            -   169     return ( input + " " + "error_13" )
+         0        489 -   171   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   171     MC/DC (cond 1): 1 - 7
+                      -   171     MC/DC (cond 2): 1 - 6
+                      -   171     MC/DC (cond 3): 1 - 5
+                      -   171     MC/DC (cond 4): 1 - 4
+                      -   171     MC/DC (cond 5): 1 - 3
+                      -   171     MC/DC (cond 6): 1 - 2
+         0            -   172     return ( input + " " + "error_9" )
+         0        489 -   174   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   174     MC/DC (cond 1): 1 - 7
+                      -   174     MC/DC (cond 2): 1 - 6
+                      -   174     MC/DC (cond 3): 1 - 5
+                      -   174     MC/DC (cond 4): 1 - 4
+                      -   174     MC/DC (cond 5): 1 - 3
+                      -   174     MC/DC (cond 6): 1 - 2
+         0            -   175     return ( input + " " + "error_44" )
+         0        489 -   177   if (( ( ( ( ( a10 == 4 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   177     MC/DC (cond 1): 1 - 6
+                      -   177     MC/DC (cond 2): 1 - 5
+                      -   177     MC/DC (cond 3): 1 - 4
+                      -   177     MC/DC (cond 4): 1 - 3
+                      -   177     MC/DC (cond 5): 1 - 2
+         0            -   178     return ( input + " " + "error_18" )
+         0        489 -   180   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   180     MC/DC (cond 1): 1 - 6
+                      -   180     MC/DC (cond 2): 1 - 5
+                      -   180     MC/DC (cond 3): 1 - 4
+                      -   180     MC/DC (cond 4): 1 - 3
+                      -   180     MC/DC (cond 5): 1 - 2
+         0            -   181     return ( input + " " + "error_2" )
+         0        489 -   183   if (( ( ( ( ( a10 == 2 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   183     MC/DC (cond 1): 1 - 6
+                      -   183     MC/DC (cond 2): 1 - 5
+                      -   183     MC/DC (cond 3): 1 - 4
+                      -   183     MC/DC (cond 4): 1 - 3
+                      -   183     MC/DC (cond 5): 1 - 2
+         0            -   184     return ( input + " " + "error_27" )
+         0        489 -   186   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   186     MC/DC (cond 1): 1 - 6
+                      -   186     MC/DC (cond 2): 1 - 5
+                      -   186     MC/DC (cond 3): 1 - 4
+                      -   186     MC/DC (cond 4): 1 - 3
+                      -   186     MC/DC (cond 5): 1 - 2
+         0            -   187     return ( input + " " + "error_11" )
+         0        489 -   189   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 8 ) ))
+                      -   189     MC/DC (cond 1): 1 - 6
+                      -   189     MC/DC (cond 2): 1 - 5
+                      -   189     MC/DC (cond 3): 1 - 4
+                      -   189     MC/DC (cond 4): 1 - 3
+                      -   189     MC/DC (cond 5): 1 - 2
+         0            -   190     return ( input + " " + "error_54" )
+         0        489 -   192   if (( ( ( ( ( a10 == 3 ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   192     MC/DC (cond 1): 1 - 6
+                      -   192     MC/DC (cond 2): 1 - 5
+                      -   192     MC/DC (cond 3): 1 - 4
+                      -   192     MC/DC (cond 4): 1 - 3
+                      -   192     MC/DC (cond 5): 1 - 2
+         0            -   193     return ( input + " " + "error_34" )
+         0        489 -   195   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 7 ) ))
+                      -   195     MC/DC (cond 1): 1 - 7
+                      -   195     MC/DC (cond 2): 1 - 6
+                      -   195     MC/DC (cond 3): 1 - 5
+                      -   195     MC/DC (cond 4): 1 - 4
+                      -   195     MC/DC (cond 5): 1 - 3
+                      -   195     MC/DC (cond 6): 1 - 2
+         0            -   196     return ( input + " " + "error_25" )
+         0        489 -   198   if (( ( ( ( ( a10 == 0 ) && ( a12 . equals ( "e" ) ) ) && a1 <= - 13 ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 9 ) ))
+                      -   198     MC/DC (cond 1): 1 - 6
+                      -   198     MC/DC (cond 2): 1 - 5
+                      -   198     MC/DC (cond 3): 1 - 4
+                      -   198     MC/DC (cond 4): 1 - 3
+                      -   198     MC/DC (cond 5): 1 - 2
+         0            -   199     return ( input + " " + "error_59" )
+         0        489 -   201   if (( ( ( ( ( a10 == 1 ) && ( a12 . equals ( "e" ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 6 ) ))
+                      -   201     MC/DC (cond 1): 1 - 7
+                      -   201     MC/DC (cond 2): 1 - 6
+                      -   201     MC/DC (cond 3): 1 - 5
+                      -   201     MC/DC (cond 4): 1 - 4
+                      -   201     MC/DC (cond 5): 1 - 3
+                      -   201     MC/DC (cond 6): 1 - 2
+         0            -   202     return ( input + " " + "error_4" )
+        11        478     205   if (( ( a12 . equals ( "e" ) ) && ( ( ( 218 < a1 && ( ( a19 == 9 ) && input . equals ( inputs [ 2 ] ) ) ) && ( a10 == 1 ) ) && ( a4 . equals ( "e" ) ) ) ))
+                      -   205     MC/DC (cond 1): 1 - 7
+                      -   205     MC/DC (cond 6): 1 - 2
+         3        475     212   else if (( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( input . equals ( inputs [ 4 ] ) && ( ( ( a10 == 3 ) && 218 < a1 ) || ( ( a10 == 4 ) && a1 <= - 13 ) ) ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   212     MC/DC (cond 1): 1 - 13, 2 - 13, 3 - 13
+                      -   212     MC/DC (cond 8): 1 - 4, 2 - 5, 3 - 8
+         4        471     218   else if (( ( a10 == 0 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 2 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ))
+                      -   218     MC/DC (cond 2): 1 - 10, 2 - 10
+                      -   218     MC/DC (cond 5): 2 - 8
+                      -   218     MC/DC (cond 8): 1 - 3, 2 - 5
+         9        462     225   else if (( ( a19 == 9 ) && ( ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 4 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a10 == 2 ) ) ))
+                      -   225     MC/DC (cond 2): 1 - 10, 2 - 10
+                      -   225     MC/DC (cond 5): 2 - 8
+                      -   225     MC/DC (cond 7): 1 - 4, 2 - 6
+        15        447     229   else if (( ( a12 . equals ( "e" ) ) && ( ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 0 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) ) && ( a10 == 2 ) ) && ( a19 == 9 ) ) ))
+                      -   229     MC/DC (cond 1): 1 - 11, 2 - 11
+                      -   229     MC/DC (cond 2): 1 - 10, 2 - 10
+                      -   229     MC/DC (cond 5): 2 - 8
+                      -   229     MC/DC (cond 8): 1 - 3, 2 - 5
+         4        443     233   else if (( ( a19 == 9 ) && ( ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 4 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) ) && ( a4 . equals ( "e" ) ) ) ))
+                      -   233     MC/DC (cond 3): 1 - 12, 2 - 12, 3 - 12
+                      -   233     MC/DC (cond 5): 1 - 9, 1 - 10
+                      -   233     MC/DC (cond 6): 1 - 6, 1 - 7
+                      -   233     MC/DC (cond 7): 2 - 7, 3 - 10
+                      -   233     MC/DC (cond 9): 1 - 4, 2 - 5, 3 - 8
+         4        439     239   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( input . equals ( inputs [ 0 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a10 == 3 ) ))
+                      -   239     MC/DC (cond 1): 1 - 16, 2 - 16, 3 - 16
+                      -   239     MC/DC (cond 6): 2 - 9, 3 - 13
+                      -   239     MC/DC (cond 8): 1 - 5, 2 - 7, 3 - 11
+         3        436     245   else if (( ( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 10 ) && ( ( a10 == 1 ) && input . equals ( inputs [ 4 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) && 218 < a1 ))
+                      -   245     MC/DC (cond 1): 1 - 7
+                      -   245     MC/DC (cond 5): 1 - 3
+         1        435     251   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( 218 < a1 && ( ( a19 == 9 ) && input . equals ( inputs [ 0 ] ) ) ) ) && ( a10 == 4 ) ) ))
+                      -   251     MC/DC (cond 1): 1 - 7
+                      -   251     MC/DC (cond 2): 1 - 6
+         0        435 -   255   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && ( ( input . equals ( inputs [ 0 ] ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a10 == 1 ) ))
+                      -   255     MC/DC (cond 1): 1 - 8
+                      -   255     MC/DC (cond 2): 1 - 7
+                      -   255     MC/DC (cond 3): 1 - 6
+                      -   255     MC/DC (cond 4): 1 - 5
+                      -   255     MC/DC (cond 5): 1 - 4
+                      -   255     MC/DC (cond 6): 1 - 3
+                      -   255     MC/DC (cond 7): 1 - 2
+         0            -   260     return "V"
+         1        434     261   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( 218 < a1 && input . equals ( inputs [ 3 ] ) ) ) && ( a19 == 10 ) ) ) && ( a10 == 1 ) ))
+                      -   261     MC/DC (cond 1): 1 - 7
+                      -   261     MC/DC (cond 2): 1 - 6
+                      -   261     MC/DC (cond 6): 1 - 2
+         7        427     265   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( ( a19 == 9 ) && input . equals ( inputs [ 1 ] ) ) && 218 < a1 ) && ( a10 == 1 ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   265     MC/DC (cond 1): 1 - 7
+                      -   265     MC/DC (cond 6): 1 - 2
+         1        426     269   else if (( ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 3 ) && 218 < a1 ) || ( ( a10 == 4 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 1 ] ) ) ) ) && ( a19 == 9 ) ))
+                      -   269     MC/DC (cond 1): 1 - 15, 2 - 15, 3 - 15
+                      -   269     MC/DC (cond 2): 1 - 14, 2 - 14, 3 - 14
+                      -   269     MC/DC (cond 3): 1 - 12, 1 - 13
+                      -   269     MC/DC (cond 4): 1 - 8, 1 - 9
+                      -   269     MC/DC (cond 8): 1 - 4, 2 - 6, 3 - 10
+         1        425     275   else if (( ( a19 == 10 ) && ( ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( ( a10 == 0 ) && 218 < a1 ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+                      -   275     MC/DC (cond 2): 1 - 43, 2 - 43, 3 - 43, 4 - 43, 5 - 43, 6 - 43, 7 - 43, 8 - 43, 9 - 43, 10 - 43
+                      -   275     MC/DC (cond 3): 1 - 37, 1 - 38, 1 - 41, 1 - 42
+                      -   275     MC/DC (cond 4): 1 - 27, 1 - 28, 1 - 31, 1 - 32
+                      -   275     MC/DC (cond 5): 1 - 17, 1 - 18, 1 - 21, 1 - 22
+                      -   275     MC/DC (cond 6): 2 - 21, 2 - 22, 5 - 31, 5 - 32, 8 - 41, 8 - 42
+                      -   275     MC/DC (cond 7): 2 - 17, 2 - 18, 5 - 27, 5 - 28, 8 - 37, 8 - 38
+                      -   275     MC/DC (cond 8): 3 - 18, 4 - 22, 6 - 28, 7 - 32, 9 - 38, 10 - 42
+                      -   275     MC/DC (cond 11): 1 - 11, 2 - 13, 3 - 15, 4 - 19, 5 - 23, 6 - 25, 7 - 29, 8 - 33, 9 - 35, 10 - 39
+         4        421     282   else if (( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( input . equals ( inputs [ 3 ] ) && ( ( ( a10 == 3 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 4 ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) ))
+                      -   282     MC/DC (cond 1): 1 - 13, 2 - 13, 3 - 13
+                      -   282     MC/DC (cond 8): 1 - 4, 2 - 5, 3 - 8
+         0        421 -   288   else if (( ( ( a19 == 10 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 1 ) && a1 <= - 13 ) || ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 0 ) ) || ( ( a10 == 0 ) && 218 < a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   288     MC/DC (cond 1): 1 - 41, 2 - 41, 3 - 41, 4 - 41, 5 - 41, 6 - 41, 7 - 41, 8 - 41, 9 - 41
+                      -   288     MC/DC (cond 2): 1 - 40, 2 - 40, 3 - 40, 4 - 40, 5 - 40, 6 - 40, 7 - 40, 8 - 40, 9 - 40
+                      -   288     MC/DC (cond 3): 1 - 30, 1 - 31, 1 - 34, 1 - 35, 1 - 38, 1 - 39
+                      -   288     MC/DC (cond 4): 1 - 16, 1 - 17, 1 - 20, 1 - 21, 1 - 24, 1 - 25
+                      -   288     MC/DC (cond 5): 2 - 24, 2 - 25, 6 - 38, 6 - 39
+                      -   288     MC/DC (cond 6): 2 - 20, 2 - 21, 6 - 34, 6 - 35
+                      -   288     MC/DC (cond 7): 2 - 16, 2 - 17, 6 - 30, 6 - 31
+                      -   288     MC/DC (cond 8): 3 - 17, 4 - 21, 5 - 25, 7 - 31, 8 - 35, 9 - 39
+                      -   288     MC/DC (cond 9): 3 - 16, 4 - 20, 5 - 24, 7 - 30, 8 - 34, 9 - 38
+                      -   288     MC/DC (cond 10): 1 - 11, 2 - 13, 3 - 15, 4 - 19, 5 - 23, 6 - 27, 7 - 29, 8 - 33, 9 - 37
+                      -   288     MC/DC (cond 11): 1 - 10, 2 - 12, 3 - 14, 4 - 18, 5 - 22, 6 - 26, 7 - 28, 8 - 32, 9 - 36
+         0            -   294     return "V"
+        16        405     295   else if (( ( a19 == 9 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) && ( a4 . equals ( "e" ) ) ) && ( a10 == 2 ) ) ) ))
+                      -   295     MC/DC (cond 2): 1 - 11, 2 - 11
+                      -   295     MC/DC (cond 4): 2 - 10
+                      -   295     MC/DC (cond 7): 1 - 4, 2 - 7
+         3        402     302   else if (( ( a12 . equals ( "e" ) ) && ( ( a4 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 && ( a10 == 1 ) ) || ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) ) && input . equals ( inputs [ 4 ] ) ) && ( a19 == 10 ) ) ) ))
+                      -   302     MC/DC (cond 1): 1 - 41, 2 - 41, 3 - 41, 4 - 41, 5 - 41, 6 - 41, 7 - 41, 8 - 41, 9 - 41
+                      -   302     MC/DC (cond 2): 1 - 40, 2 - 40, 3 - 40, 4 - 40, 5 - 40, 6 - 40, 7 - 40, 8 - 40, 9 - 40
+                      -   302     MC/DC (cond 5): 2 - 24, 2 - 25, 6 - 38, 6 - 39
+                      -   302     MC/DC (cond 6): 2 - 20, 2 - 21, 6 - 34, 6 - 35
+                      -   302     MC/DC (cond 7): 2 - 16, 2 - 17, 6 - 30, 6 - 31
+                      -   302     MC/DC (cond 8): 3 - 17, 4 - 21, 5 - 25, 7 - 31, 8 - 35, 9 - 39
+                      -   302     MC/DC (cond 9): 3 - 16, 4 - 20, 5 - 24, 7 - 30, 8 - 34, 9 - 38
+                      -   302     MC/DC (cond 11): 1 - 10, 2 - 12, 3 - 14, 4 - 18, 5 - 22, 6 - 26, 7 - 28, 8 - 32, 9 - 36
+         4        398     309   else if (( ( a19 == 9 ) && ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a10 == 1 ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+                      -   309     MC/DC (cond 2): 1 - 17, 2 - 17, 3 - 17
+                      -   309     MC/DC (cond 3): 1 - 15, 1 - 16
+                      -   309     MC/DC (cond 4): 1 - 10, 1 - 11
+                      -   309     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   309     MC/DC (cond 9): 1 - 4, 2 - 7, 3 - 12
+         2        396     315   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( input . equals ( inputs [ 3 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) ) && ( a10 == 4 ) ) ))
+                      -   315     MC/DC (cond 1): 1 - 14, 2 - 14, 3 - 14
+                      -   315     MC/DC (cond 2): 1 - 13, 2 - 13, 3 - 13
+                      -   315     MC/DC (cond 7): 2 - 7, 3 - 10
+                      -   315     MC/DC (cond 8): 2 - 6, 3 - 9
+         3        393     319   else if (( ( a10 == 0 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a19 == 10 ) ) && ( a4 . equals ( "e" ) ) ) ) ))
+                      -   319     MC/DC (cond 2): 1 - 11, 2 - 11
+                      -   319     MC/DC (cond 4): 2 - 10
+                      -   319     MC/DC (cond 8): 1 - 3, 2 - 6
+         0        393 -   323   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 2 ] ) && ( a19 == 10 ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a10 == 1 ) ))
+                      -   323     MC/DC (cond 1): 1 - 8
+                      -   323     MC/DC (cond 2): 1 - 7
+                      -   323     MC/DC (cond 3): 1 - 6
+                      -   323     MC/DC (cond 4): 1 - 5
+                      -   323     MC/DC (cond 5): 1 - 4
+                      -   323     MC/DC (cond 6): 1 - 3
+                      -   323     MC/DC (cond 7): 1 - 2
+         0            -   329     return null
+         6        387     330   else if (( ( a19 == 9 ) && ( ( a4 . equals ( "e" ) ) && ( ( a10 == 1 ) && ( ( input . equals ( inputs [ 2 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a12 . equals ( "e" ) ) ) ) ) ))
+                      -   330     MC/DC (cond 2): 1 - 13, 2 - 13, 3 - 13
+                      -   330     MC/DC (cond 5): 1 - 9, 1 - 10
+                      -   330     MC/DC (cond 6): 1 - 6, 1 - 7
+                      -   330     MC/DC (cond 7): 2 - 7, 3 - 10
+                      -   330     MC/DC (cond 8): 2 - 6, 3 - 9
+                      -   330     MC/DC (cond 9): 1 - 4, 2 - 5, 3 - 8
+         1        386     337   else if (( ( ( ( a10 == 1 ) && ( ( input . equals ( inputs [ 2 ] ) && 218 < a1 ) && ( a4 . equals ( "e" ) ) ) ) && ( a19 == 10 ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   337     MC/DC (cond 4): 1 - 4
+                      -   337     MC/DC (cond 5): 1 - 3
+                      -   337     MC/DC (cond 6): 1 - 2
+         0        386 -   344   else if (( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( ( ( a4 . equals ( "e" ) ) && ( ( a19 == 10 ) && ( ( a10 == 1 ) && input . equals ( inputs [ 1 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+                      -   344     MC/DC (cond 1): 1 - 8
+                      -   344     MC/DC (cond 2): 1 - 7
+                      -   344     MC/DC (cond 3): 1 - 6
+                      -   344     MC/DC (cond 4): 1 - 5
+                      -   344     MC/DC (cond 5): 1 - 4
+                      -   344     MC/DC (cond 6): 1 - 3
+                      -   344     MC/DC (cond 7): 1 - 2
+         0            -   349     return "X"
+         2        384     350   else if (( ( a19 == 9 ) && ( ( ( a4 . equals ( "e" ) ) && ( ( ( ( a10 == 3 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 4 ) ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+                      -   350     MC/DC (cond 2): 1 - 14, 2 - 14, 3 - 14
+                      -   350     MC/DC (cond 3): 1 - 12, 1 - 13
+                      -   350     MC/DC (cond 4): 1 - 8, 1 - 9
+                      -   350     MC/DC (cond 8): 1 - 4, 2 - 6, 3 - 10
+         1        383     357   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( ( a10 == 3 ) && a1 <= - 13 ) || ( ( ( a10 == 2 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 2 ) ) ) ) && input . equals ( inputs [ 3 ] ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   357     MC/DC (cond 1): 1 - 41, 2 - 41, 3 - 41, 4 - 41, 5 - 41, 6 - 41, 7 - 41, 8 - 41, 9 - 41
+                      -   357     MC/DC (cond 3): 1 - 30, 1 - 31, 1 - 34, 1 - 35, 1 - 38, 1 - 39
+                      -   357     MC/DC (cond 4): 1 - 16, 1 - 17, 1 - 20, 1 - 21, 1 - 24, 1 - 25
+                      -   357     MC/DC (cond 5): 2 - 24, 2 - 25, 6 - 38, 6 - 39
+                      -   357     MC/DC (cond 6): 2 - 20, 2 - 21, 6 - 34, 6 - 35
+                      -   357     MC/DC (cond 7): 2 - 16, 2 - 17, 6 - 30, 6 - 31
+                      -   357     MC/DC (cond 8): 3 - 17, 4 - 21, 5 - 25, 7 - 31, 8 - 35, 9 - 39
+                      -   357     MC/DC (cond 9): 3 - 16, 4 - 20, 5 - 24, 7 - 30, 8 - 34, 9 - 38
+                      -   357     MC/DC (cond 11): 1 - 10, 2 - 12, 3 - 14, 4 - 18, 5 - 22, 6 - 26, 7 - 28, 8 - 32, 9 - 36
+        12        371     363   else if (( ( a19 == 9 ) && ( ( ( input . equals ( inputs [ 1 ] ) && ( ( 218 < a1 && ( a10 == 0 ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) ))
+                      -   363     MC/DC (cond 7): 1 - 5, 2 - 7, 3 - 11
+                      -   363     MC/DC (cond 8): 1 - 4, 2 - 6, 3 - 10
+        24        347     370   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a12 . equals ( "e" ) ) && ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) && ( a19 == 9 ) ) ) && ( a10 == 0 ) ) ))
+                      -   370     MC/DC (cond 1): 1 - 18, 2 - 18, 3 - 18
+                      -   370     MC/DC (cond 2): 1 - 17, 2 - 17, 3 - 17
+                      -   370     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   370     MC/DC (cond 6): 2 - 10, 3 - 15
+         6        341     376   else if (( ( ( a19 == 9 ) && ( ( input . equals ( inputs [ 3 ] ) && ( ( 218 < a1 && ( a10 == 0 ) ) || ( a1 <= - 13 && ( a10 == 1 ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   376     MC/DC (cond 5): 2 - 9, 3 - 13
+                      -   376     MC/DC (cond 6): 2 - 8, 3 - 12
+                      -   376     MC/DC (cond 7): 1 - 5, 2 - 7, 3 - 11
+                      -   376     MC/DC (cond 8): 1 - 4, 2 - 6, 3 - 10
+        18        323     382   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( a10 == 2 ) && ( input . equals ( inputs [ 3 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   382     MC/DC (cond 1): 1 - 10, 2 - 10
+                      -   382     MC/DC (cond 5): 1 - 5, 1 - 6
+                      -   382     MC/DC (cond 6): 2 - 6
+                      -   382     MC/DC (cond 7): 2 - 5
+                      -   382     MC/DC (cond 8): 1 - 3, 2 - 4
+         2        321     386   else if (( ( a12 . equals ( "e" ) ) && ( ( a4 . equals ( "e" ) ) && ( 218 < a1 && ( ( ( a10 == 1 ) && input . equals ( inputs [ 1 ] ) ) && ( a19 == 10 ) ) ) ) ))
+                      -   386     MC/DC (cond 1): 1 - 7
+                      -   386     MC/DC (cond 2): 1 - 6
+                      -   386     MC/DC (cond 6): 1 - 2
+         1        320     393   else if (( ( ( ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 1 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ) && ( a10 == 3 ) ))
+                      -   393     MC/DC (cond 1): 1 - 18, 2 - 18, 3 - 18
+                      -   393     MC/DC (cond 3): 1 - 15, 1 - 16
+                      -   393     MC/DC (cond 4): 1 - 10, 1 - 11
+                      -   393     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   393     MC/DC (cond 7): 1 - 6, 2 - 9, 3 - 14
+                      -   393     MC/DC (cond 8): 1 - 5, 2 - 8, 3 - 13
+         3        317     397   else if (( 218 < a1 && ( ( ( ( input . equals ( inputs [ 0 ] ) && ( a10 == 1 ) ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 10 ) ) ))
+                      -   397     MC/DC (cond 4): 1 - 4
+                      -   397     MC/DC (cond 5): 1 - 3
+         2        315     403   else if (( ( a12 . equals ( "e" ) ) && ( ( ( a19 == 9 ) && ( ( ( ( a10 == 0 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 1 ) ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a4 . equals ( "e" ) ) ) ))
+                      -   403     MC/DC (cond 1): 1 - 15, 2 - 15, 3 - 15
+                      -   403     MC/DC (cond 5): 2 - 9, 3 - 13
+                      -   403     MC/DC (cond 6): 2 - 8, 3 - 12
+                      -   403     MC/DC (cond 8): 1 - 4, 2 - 6, 3 - 10
+        11        304     409   else if (( ( a10 == 1 ) && ( ( a4 . equals ( "e" ) ) && ( ( ( ( a12 . equals ( "e" ) ) && input . equals ( inputs [ 4 ] ) ) && ( a19 == 9 ) ) && 218 < a1 ) ) ))
+                      -   409     MC/DC (cond 2): 1 - 6
+                      -   409     MC/DC (cond 3): 1 - 5
+                      -   409     MC/DC (cond 6): 1 - 2
+         1        303     415   else if (( ( ( a10 == 1 ) && ( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 10 ) && input . equals ( inputs [ 1 ] ) ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   415     MC/DC (cond 2): 1 - 7
+                      -   415     MC/DC (cond 5): 1 - 4
+                      -   415     MC/DC (cond 6): 1 - 3
+                      -   415     MC/DC (cond 7): 1 - 2
+         1        302     421   else if (( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 1 ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 10 ) ) ))
+                      -   421     MC/DC (cond 1): 1 - 8
+                      -   421     MC/DC (cond 6): 1 - 3
+                      -   421     MC/DC (cond 7): 1 - 2
+         3        299     425   else if (( ( ( a4 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 1 ] ) && ( ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) || ( a1 <= - 13 && ( a10 == 3 ) ) ) ) && ( a19 == 9 ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   425     MC/DC (cond 1): 1 - 44, 2 - 44, 3 - 44, 4 - 44, 5 - 44, 6 - 44, 7 - 44, 8 - 44, 9 - 44, 10 - 44
+                      -   425     MC/DC (cond 3): 1 - 37, 1 - 38, 1 - 41, 1 - 42
+                      -   425     MC/DC (cond 4): 1 - 27, 1 - 28, 1 - 31, 1 - 32
+                      -   425     MC/DC (cond 5): 1 - 17, 1 - 18, 1 - 21, 1 - 22
+                      -   425     MC/DC (cond 7): 2 - 17, 2 - 18, 5 - 27, 5 - 28, 8 - 37, 8 - 38
+                      -   425     MC/DC (cond 8): 3 - 18, 4 - 22, 6 - 28, 7 - 32, 9 - 38, 10 - 42
+                      -   425     MC/DC (cond 9): 3 - 17, 4 - 21, 6 - 27, 7 - 31, 9 - 37, 10 - 41
+                      -   425     MC/DC (cond 10): 1 - 12, 2 - 14, 3 - 16, 4 - 20, 5 - 24, 6 - 26, 7 - 30, 8 - 34, 9 - 36, 10 - 40
+                      -   425     MC/DC (cond 11): 1 - 11, 2 - 13, 3 - 15, 4 - 19, 5 - 23, 6 - 25, 7 - 29, 8 - 33, 9 - 35, 10 - 39
+         1        298     431   else if (( ( ( a10 == 0 ) && ( ( a12 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 1 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   431     MC/DC (cond 2): 1 - 10, 2 - 10
+                      -   431     MC/DC (cond 4): 1 - 7, 1 - 8
+                      -   431     MC/DC (cond 5): 2 - 8
+                      -   431     MC/DC (cond 6): 2 - 7
+                      -   431     MC/DC (cond 7): 1 - 4, 2 - 6
+                      -   431     MC/DC (cond 8): 1 - 3, 2 - 5
+         3        295     435   else if (( ( ( a19 == 10 ) && ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) && input . equals ( inputs [ 2 ] ) ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   435     MC/DC (cond 3): 1 - 6
+                      -   435     MC/DC (cond 6): 1 - 3
+                      -   435     MC/DC (cond 7): 1 - 2
+         4        291     442   else if (( ( a19 == 9 ) && ( ( a4 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 2 ] ) && ( ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) || ( ( a10 == 3 ) && a1 <= - 13 ) ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+                      -   442     MC/DC (cond 2): 1 - 34, 2 - 34, 3 - 34, 4 - 34, 5 - 34, 6 - 34, 7 - 34, 8 - 34, 9 - 34, 10 - 34
+                      -   442     MC/DC (cond 4): 1 - 28, 1 - 29, 1 - 31, 1 - 32
+                      -   442     MC/DC (cond 5): 1 - 21, 1 - 22, 1 - 24, 1 - 25
+                      -   442     MC/DC (cond 6): 1 - 14, 1 - 15, 1 - 17, 1 - 18
+                      -   442     MC/DC (cond 7): 2 - 17, 2 - 18, 5 - 24, 5 - 25, 8 - 31, 8 - 32
+                      -   442     MC/DC (cond 8): 2 - 14, 2 - 15, 5 - 21, 5 - 22, 8 - 28, 8 - 29
+                      -   442     MC/DC (cond 11): 1 - 11, 2 - 12, 3 - 13, 4 - 16, 5 - 19, 6 - 20, 7 - 23, 8 - 26, 9 - 27, 10 - 30
+         3        288     448   else if (( ( ( ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && input . equals ( inputs [ 0 ] ) ) && ( a10 == 1 ) ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 10 ) ))
+                      -   448     MC/DC (cond 5): 1 - 4
+                      -   448     MC/DC (cond 6): 1 - 3
+                      -   448     MC/DC (cond 7): 1 - 2
+         4        284     455   else if (( ( ( a10 == 4 ) && ( 218 < a1 && ( ( input . equals ( inputs [ 1 ] ) && ( a12 . equals ( "e" ) ) ) && ( a4 . equals ( "e" ) ) ) ) ) && ( a19 == 9 ) ))
+                      -   455     MC/DC (cond 4): 1 - 4
+                      -   455     MC/DC (cond 5): 1 - 3
+                      -   455     MC/DC (cond 6): 1 - 2
+        29        255     461   else if (( ( a12 . equals ( "e" ) ) && ( ( ( ( input . equals ( inputs [ 3 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ) && ( a10 == 0 ) ) ))
+                      -   461     MC/DC (cond 1): 1 - 18, 2 - 18, 3 - 18
+                      -   461     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   461     MC/DC (cond 6): 2 - 10, 3 - 15
+                      -   461     MC/DC (cond 8): 1 - 5, 2 - 8, 3 - 13
+         2        253     467   else if (( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) && ( a12 . equals ( "e" ) ) ) && ( a19 == 9 ) ) && ( a10 == 4 ) ) ))
+                      -   467     MC/DC (cond 1): 1 - 20, 2 - 20, 3 - 20
+                      -   467     MC/DC (cond 4): 2 - 13, 3 - 19
+                      -   467     MC/DC (cond 7): 1 - 6, 2 - 10, 3 - 16
+                      -   467     MC/DC (cond 8): 1 - 5, 2 - 9, 3 - 15
+         2        251     474   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( a10 == 2 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) || ( a1 <= - 13 && ( a10 == 3 ) ) ) && input . equals ( inputs [ 4 ] ) ) && ( a19 == 9 ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   474     MC/DC (cond 1): 1 - 53, 2 - 53, 3 - 53, 4 - 53, 5 - 53, 6 - 53, 7 - 53, 8 - 53, 9 - 53, 10 - 53
+                      -   474     MC/DC (cond 2): 1 - 46, 1 - 47, 1 - 51, 1 - 52
+                      -   474     MC/DC (cond 3): 1 - 33, 1 - 34, 1 - 38, 1 - 39
+                      -   474     MC/DC (cond 4): 1 - 20, 1 - 21, 1 - 25, 1 - 26
+                      -   474     MC/DC (cond 5): 2 - 25, 2 - 26, 5 - 38, 5 - 39, 8 - 51, 8 - 52
+                      -   474     MC/DC (cond 6): 2 - 20, 2 - 21, 5 - 33, 5 - 34, 8 - 46, 8 - 47
+                      -   474     MC/DC (cond 10): 1 - 12, 2 - 15, 3 - 18, 4 - 23, 5 - 28, 6 - 31, 7 - 36, 8 - 41, 9 - 44, 10 - 49
+                      -   474     MC/DC (cond 11): 1 - 11, 2 - 14, 3 - 17, 4 - 22, 5 - 27, 6 - 30, 7 - 35, 8 - 40, 9 - 43, 10 - 48
+         3        248     480   else if (( 218 < a1 && ( ( ( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && input . equals ( inputs [ 4 ] ) ) ) && ( a10 == 4 ) ) && ( a4 . equals ( "e" ) ) ) ))
+                      -   480     MC/DC (cond 2): 1 - 6
+                      -   480     MC/DC (cond 3): 1 - 5
+                      -   480     MC/DC (cond 6): 1 - 2
+         0        248 -   486   else if (( ( ( ( ( input . equals ( inputs [ 2 ] ) && ( a4 . equals ( "e" ) ) ) && 218 < a1 ) && ( a10 == 4 ) ) && ( a19 == 9 ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   486     MC/DC (cond 1): 1 - 7
+                      -   486     MC/DC (cond 2): 1 - 6
+                      -   486     MC/DC (cond 3): 1 - 5
+                      -   486     MC/DC (cond 4): 1 - 4
+                      -   486     MC/DC (cond 5): 1 - 3
+                      -   486     MC/DC (cond 6): 1 - 2
+         0            -   492     return null
+         4        244     493   else if (( ( ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 3 ] ) && ( a10 == 1 ) ) ) && ( a12 . equals ( "e" ) ) ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && ( a19 == 10 ) ))
+                      -   493     MC/DC (cond 1): 1 - 8
+                      -   493     MC/DC (cond 4): 1 - 5
+         7        237     499   else if (( ( a4 . equals ( "e" ) ) && ( ( a10 == 1 ) && ( ( a19 == 9 ) && ( ( a12 . equals ( "e" ) ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) ) ) ) ))
+                      -   499     MC/DC (cond 1): 1 - 14, 2 - 14, 3 - 14
+                      -   499     MC/DC (cond 4): 1 - 11, 2 - 11, 3 - 11
+                      -   499     MC/DC (cond 5): 1 - 9, 1 - 10
+                      -   499     MC/DC (cond 6): 1 - 6, 1 - 7
+                      -   499     MC/DC (cond 7): 2 - 7, 3 - 10
+         0        237 -   505   else if (( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( ( a1 <= - 13 && ( a10 == 3 ) ) || ( ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && ( a10 == 2 ) ) || ( ( a10 == 2 ) && 218 < a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) && ( a12 . equals ( "e" ) ) ) ) ))
+                      -   505     MC/DC (cond 1): 1 - 41, 2 - 41, 3 - 41, 4 - 41, 5 - 41, 6 - 41, 7 - 41, 8 - 41, 9 - 41
+                      -   505     MC/DC (cond 2): 1 - 40, 2 - 40, 3 - 40, 4 - 40, 5 - 40, 6 - 40, 7 - 40, 8 - 40, 9 - 40
+                      -   505     MC/DC (cond 3): 1 - 30, 1 - 31, 1 - 34, 1 - 35, 1 - 38, 1 - 39
+                      -   505     MC/DC (cond 4): 1 - 16, 1 - 17, 1 - 20, 1 - 21, 1 - 24, 1 - 25
+                      -   505     MC/DC (cond 5): 2 - 24, 2 - 25, 6 - 38, 6 - 39
+                      -   505     MC/DC (cond 6): 2 - 20, 2 - 21, 6 - 34, 6 - 35
+                      -   505     MC/DC (cond 7): 2 - 16, 2 - 17, 6 - 30, 6 - 31
+                      -   505     MC/DC (cond 8): 3 - 17, 4 - 21, 5 - 25, 7 - 31, 8 - 35, 9 - 39
+                      -   505     MC/DC (cond 9): 3 - 16, 4 - 20, 5 - 24, 7 - 30, 8 - 34, 9 - 38
+                      -   505     MC/DC (cond 10): 1 - 11, 2 - 13, 3 - 15, 4 - 19, 5 - 23, 6 - 27, 7 - 29, 8 - 33, 9 - 37
+                      -   505     MC/DC (cond 11): 1 - 10, 2 - 12, 3 - 14, 4 - 18, 5 - 22, 6 - 26, 7 - 28, 8 - 32, 9 - 36
+         0            -   510     return null
+         2        235     511   else if (( ( a4 . equals ( "e" ) ) && ( ( ( a19 == 9 ) && ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 3 ] ) ) && ( a10 == 3 ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+                      -   511     MC/DC (cond 1): 1 - 18, 2 - 18, 3 - 18
+                      -   511     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   511     MC/DC (cond 9): 1 - 4, 2 - 7, 3 - 12
+         1        234     517   else if (( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( ( a4 . equals ( "e" ) ) && ( input . equals ( inputs [ 4 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) && ( a10 == 3 ) ) ) ))
+                      -   517     MC/DC (cond 1): 1 - 14, 2 - 14, 3 - 14
+                      -   517     MC/DC (cond 3): 1 - 12, 2 - 12, 3 - 12
+                      -   517     MC/DC (cond 5): 1 - 9, 1 - 10
+                      -   517     MC/DC (cond 6): 1 - 6, 1 - 7
+                      -   517     MC/DC (cond 7): 2 - 7, 3 - 10
+        26        208     523   else if (( ( ( ( ( input . equals ( inputs [ 0 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a10 == 0 ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   523     MC/DC (cond 4): 2 - 13, 3 - 19
+                      -   523     MC/DC (cond 5): 2 - 12, 3 - 18
+                      -   523     MC/DC (cond 7): 1 - 6, 2 - 10, 3 - 16
+                      -   523     MC/DC (cond 8): 1 - 5, 2 - 9, 3 - 15
+                      -   523     MC/DC (cond 9): 1 - 4, 2 - 8, 3 - 14
+         7        201     529   else if (( ( ( ( a12 . equals ( "e" ) ) && ( ( ( ( a10 == 0 ) && 218 < a1 ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a19 == 9 ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   529     MC/DC (cond 1): 1 - 17, 2 - 17, 3 - 17
+                      -   529     MC/DC (cond 4): 2 - 11, 3 - 16
+                      -   529     MC/DC (cond 5): 2 - 10, 3 - 15
+                      -   529     MC/DC (cond 7): 1 - 5, 2 - 8, 3 - 13
+                      -   529     MC/DC (cond 8): 1 - 4, 2 - 7, 3 - 12
+        27        174     535   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) && ( a19 == 9 ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a10 == 0 ) ))
+                      -   535     MC/DC (cond 1): 1 - 20, 2 - 20, 3 - 20
+                      -   535     MC/DC (cond 4): 2 - 13, 3 - 19
+                      -   535     MC/DC (cond 5): 2 - 12, 3 - 18
+                      -   535     MC/DC (cond 7): 1 - 6, 2 - 10, 3 - 16
+                      -   535     MC/DC (cond 8): 1 - 5, 2 - 9, 3 - 15
+        10        164     542   else if (( ( a12 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( a10 == 1 ) && ( ( 218 < a1 && input . equals ( inputs [ 0 ] ) ) && ( a4 . equals ( "e" ) ) ) ) ) ))
+                      -   542     MC/DC (cond 1): 1 - 7
+                      -   542     MC/DC (cond 6): 1 - 2
+         3        161     548   else if (( ( ( ( ( input . equals ( inputs [ 4 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) && ( a10 == 0 ) ) && ( a4 . equals ( "e" ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   548     MC/DC (cond 3): 2 - 12
+                      -   548     MC/DC (cond 4): 2 - 11
+                      -   548     MC/DC (cond 5): 1 - 6, 2 - 10
+                      -   548     MC/DC (cond 6): 1 - 5, 2 - 9
+                      -   548     MC/DC (cond 7): 1 - 4, 2 - 8
+                      -   548     MC/DC (cond 8): 1 - 3, 2 - 7
+         2        159     555   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( input . equals ( inputs [ 3 ] ) && ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) ) && ( a19 == 10 ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a10 == 0 ) ))
+                      -   555     MC/DC (cond 1): 1 - 12, 2 - 12
+                      -   555     MC/DC (cond 4): 2 - 10
+                      -   555     MC/DC (cond 6): 1 - 5, 2 - 8
+                      -   555     MC/DC (cond 7): 1 - 4, 2 - 7
+         3        156     559   else if (( ( ( ( ( a4 . equals ( "e" ) ) && ( ( ( 38 < a1 ) && ( 218 >= a1 ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a10 == 1 ) ) && ( a19 == 10 ) ))
+                      -   559     MC/DC (cond 1): 1 - 8
+                      -   559     MC/DC (cond 5): 1 - 4
+                      -   559     MC/DC (cond 7): 1 - 2
+         4        152     566   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( a19 == 9 ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 4 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a10 == 4 ) ))
+                      -   566     MC/DC (cond 1): 1 - 18, 2 - 18, 3 - 18
+                      -   566     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   566     MC/DC (cond 8): 1 - 5, 2 - 8, 3 - 13
+         2        150     572   else if (( ( ( a10 == 3 ) && ( ( ( a19 == 9 ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 2 ] ) ) ) && ( a12 . equals ( "e" ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   572     MC/DC (cond 2): 1 - 17, 2 - 17, 3 - 17
+                      -   572     MC/DC (cond 4): 1 - 10, 1 - 11
+                      -   572     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   572     MC/DC (cond 6): 2 - 10, 3 - 15
+                      -   572     MC/DC (cond 7): 1 - 6, 2 - 9, 3 - 14
+                      -   572     MC/DC (cond 8): 1 - 5, 2 - 8, 3 - 13
+                      -   572     MC/DC (cond 9): 1 - 4, 2 - 7, 3 - 12
+         0        150 -   579   else if (( ( ( ( ( a10 == 1 ) && ( ( a12 . equals ( "e" ) ) && input . equals ( inputs [ 3 ] ) ) ) && ( a19 == 10 ) ) && ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   579     MC/DC (cond 1): 1 - 8
+                      -   579     MC/DC (cond 2): 1 - 7
+                      -   579     MC/DC (cond 3): 1 - 6
+                      -   579     MC/DC (cond 4): 1 - 5
+                      -   579     MC/DC (cond 5): 1 - 4
+                      -   579     MC/DC (cond 6): 1 - 3
+                      -   579     MC/DC (cond 7): 1 - 2
+         0            -   585     return "X"
+         3        147     586   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 && ( a10 == 1 ) ) || ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) ) && input . equals ( inputs [ 3 ] ) ) && ( a19 == 10 ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   586     MC/DC (cond 1): 1 - 49, 2 - 49, 3 - 49, 4 - 49, 5 - 49, 6 - 49, 7 - 49, 8 - 49, 9 - 49
+                      -   586     MC/DC (cond 4): 2 - 29, 2 - 30, 6 - 47, 6 - 48
+                      -   586     MC/DC (cond 5): 2 - 24, 2 - 25, 6 - 42, 6 - 43
+                      -   586     MC/DC (cond 6): 2 - 19, 2 - 20, 6 - 37, 6 - 38
+                      -   586     MC/DC (cond 7): 3 - 20, 4 - 25, 5 - 30, 7 - 38, 8 - 43, 9 - 48
+                      -   586     MC/DC (cond 8): 3 - 19, 4 - 24, 5 - 29, 7 - 37, 8 - 42, 9 - 47
+                      -   586     MC/DC (cond 10): 1 - 11, 2 - 14, 3 - 17, 4 - 22, 5 - 27, 6 - 32, 7 - 35, 8 - 40, 9 - 45
+                      -   586     MC/DC (cond 11): 1 - 10, 2 - 13, 3 - 16, 4 - 21, 5 - 26, 6 - 31, 7 - 34, 8 - 39, 9 - 44
+        34        113     593   else if (( ( a4 . equals ( "e" ) ) && ( ( a19 == 9 ) && ( ( a12 . equals ( "e" ) ) && ( ( input . equals ( inputs [ 4 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) && ( a10 == 0 ) ) ) ) ))
+                      -   593     MC/DC (cond 1): 1 - 14, 2 - 14, 3 - 14
+                      -   593     MC/DC (cond 3): 1 - 12, 2 - 12, 3 - 12
+                      -   593     MC/DC (cond 5): 1 - 9, 1 - 10
+                      -   593     MC/DC (cond 6): 1 - 6, 1 - 7
+                      -   593     MC/DC (cond 7): 2 - 7, 3 - 10
+                      -   593     MC/DC (cond 8): 2 - 6, 3 - 9
+                      -   593     MC/DC (cond 9): 1 - 4, 2 - 5, 3 - 8
+         8        105     597   else if (( ( ( a12 . equals ( "e" ) ) && ( ( a10 == 1 ) && ( 218 < a1 && ( ( a19 == 9 ) && input . equals ( inputs [ 3 ] ) ) ) ) ) && ( a4 . equals ( "e" ) ) ))
+                      -   597     MC/DC (cond 1): 1 - 7
+                      -   597     MC/DC (cond 4): 1 - 4
+                      -   597     MC/DC (cond 6): 1 - 2
+         2        103     601   else if (( ( a19 == 9 ) && ( ( ( a10 == 4 ) && ( 218 < a1 && ( ( a4 . equals ( "e" ) ) && input . equals ( inputs [ 3 ] ) ) ) ) && ( a12 . equals ( "e" ) ) ) ))
+                      -   601     MC/DC (cond 4): 1 - 4
+                      -   601     MC/DC (cond 6): 1 - 2
+         0        103 -   607   else if (( ( a19 == 10 ) && ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 1 ] ) && ( ( ( ( a10 == 0 ) && ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) || ( 218 < a1 && ( a10 == 0 ) ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) ) ) ) ))
+                      -   607     MC/DC (cond 1): 1 - 26, 2 - 26, 3 - 26, 4 - 26, 5 - 26, 6 - 26, 7 - 26, 8 - 26, 9 - 26, 10 - 26
+                      -   607     MC/DC (cond 2): 1 - 25, 2 - 25, 3 - 25, 4 - 25, 5 - 25, 6 - 25, 7 - 25, 8 - 25, 9 - 25, 10 - 25
+                      -   607     MC/DC (cond 3): 1 - 24, 2 - 24, 3 - 24, 4 - 24, 5 - 24, 6 - 24, 7 - 24, 8 - 24, 9 - 24, 10 - 24
+                      -   607     MC/DC (cond 4): 1 - 23, 2 - 23, 3 - 23, 4 - 23, 5 - 23, 6 - 23, 7 - 23, 8 - 23, 9 - 23, 10 - 23
+                      -   607     MC/DC (cond 5): 1 - 19, 1 - 20, 1 - 21, 1 - 22
+                      -   607     MC/DC (cond 6): 1 - 15, 1 - 16, 1 - 17, 1 - 18
+                      -   607     MC/DC (cond 7): 1 - 11, 1 - 12, 1 - 13, 1 - 14
+                      -   607     MC/DC (cond 8): 2 - 13, 2 - 14, 5 - 17, 5 - 18, 8 - 21, 8 - 22
+                      -   607     MC/DC (cond 9): 2 - 11, 2 - 12, 5 - 15, 5 - 16, 8 - 19, 8 - 20
+                      -   607     MC/DC (cond 10): 3 - 12, 4 - 14, 6 - 16, 7 - 18, 9 - 20, 10 - 22
+                      -   607     MC/DC (cond 11): 3 - 11, 4 - 13, 6 - 15, 7 - 17, 9 - 19, 10 - 21
+         0            -   613     return "X"
+        12         91     614   else if (( ( ( ( ( ( 218 < a1 && ( a10 == 0 ) ) || ( ( a10 == 1 ) && a1 <= - 13 ) ) && input . equals ( inputs [ 0 ] ) ) && ( a4 . equals ( "e" ) ) ) && ( a12 . equals ( "e" ) ) ) && ( a19 == 9 ) ))
+                      -   614     MC/DC (cond 6): 1 - 6, 2 - 10, 3 - 16
+                      -   614     MC/DC (cond 7): 1 - 5, 2 - 9, 3 - 15
+                      -   614     MC/DC (cond 8): 1 - 4, 2 - 8, 3 - 14
+         1         90     620   else if (( ( ( a4 . equals ( "e" ) ) && ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 0 ] ) && ( ( ( a10 == 3 ) && 218 < a1 ) || ( a1 <= - 13 && ( a10 == 4 ) ) ) ) ) ) && ( a19 == 9 ) ))
+                      -   620     MC/DC (cond 1): 1 - 13, 2 - 13, 3 - 13
+                      -   620     MC/DC (cond 2): 1 - 12, 2 - 12, 3 - 12
+                      -   620     MC/DC (cond 4): 1 - 9, 1 - 10
+                      -   620     MC/DC (cond 5): 1 - 6, 1 - 7
+                      -   620     MC/DC (cond 7): 2 - 6, 3 - 9
+                      -   620     MC/DC (cond 8): 1 - 4, 2 - 5, 3 - 8
+         5         85     626   else if (( ( ( a10 == 1 ) && ( ( ( a12 . equals ( "e" ) ) && ( input . equals ( inputs [ 3 ] ) && ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a19 == 9 ) ))
+                      -   626     MC/DC (cond 2): 1 - 15, 2 - 15, 3 - 15
+                      -   626     MC/DC (cond 4): 1 - 12, 1 - 13
+                      -   626     MC/DC (cond 5): 1 - 8, 1 - 9
+                      -   626     MC/DC (cond 6): 2 - 9, 3 - 13
+                      -   626     MC/DC (cond 7): 2 - 8, 3 - 12
+                      -   626     MC/DC (cond 8): 1 - 5, 2 - 7, 3 - 11
+                      -   626     MC/DC (cond 9): 1 - 4, 2 - 6, 3 - 10
+         2         83     633   else if (( ( ( a10 == 4 ) && ( ( ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) && ( a4 . equals ( "e" ) ) ) && ( a19 == 9 ) ) ) && ( a12 . equals ( "e" ) ) ))
+                      -   633     MC/DC (cond 2): 1 - 18, 1 - 19
+                      -   633     MC/DC (cond 4): 2 - 13, 3 - 19
+                      -   633     MC/DC (cond 7): 1 - 6, 2 - 10, 3 - 16
+                      -   633     MC/DC (cond 8): 1 - 5, 2 - 9, 3 - 15
+                      -   633     MC/DC (cond 9): 1 - 4, 2 - 8, 3 - 14
+         8         75     637   else if (( ( ( a4 . equals ( "e" ) ) && ( ( ( ( a1 <= - 13 || ( ( - 13 < a1 ) && ( 38 >= a1 ) ) ) && input . equals ( inputs [ 1 ] ) ) && ( a12 . equals ( "e" ) ) ) && ( a19 == 9 ) ) ) && ( a10 == 2 ) ))
+                      -   637     MC/DC (cond 1): 1 - 13, 2 - 13
+                      -   637     MC/DC (cond 3): 2 - 12
+                      -   637     MC/DC (cond 6): 1 - 5, 2 - 9
+                      -   637     MC/DC (cond 7): 1 - 4, 2 - 8
+                      -   637     MC/DC (cond 8): 1 - 3, 2 - 7
+         3         72     641   else if (( ( ( a12 . equals ( "e" ) ) && ( ( ( a10 == 4 ) && ( ( ( ( - 13 < a1 ) && ( 38 >= a1 ) ) || ( ( 38 < a1 ) && ( 218 >= a1 ) ) ) && input . equals ( inputs [ 0 ] ) ) ) && ( a4 . equals ( "e" ) ) ) ) && ( a19 == 9 ) ))
+                      -   641     MC/DC (cond 1): 1 - 18, 2 - 18, 3 - 18
+                      -   641     MC/DC (cond 3): 1 - 15, 1 - 16
+                      -   641     MC/DC (cond 5): 2 - 11, 3 - 16
+                      -   641     MC/DC (cond 8): 1 - 5, 2 - 8, 3 - 13
+                      -   641     MC/DC (cond 9): 1 - 4, 2 - 7, 3 - 12
+
+-----------------------------------------------------------------------------
+
+         1                651 FUNCTION Problem10::main()
+         0            -   691     catch (IllegalArgumentException e)
+
+-----------------------------------------------------------------------------
+
+
+
+SUMMARY
+=======
+
+Source files       : 1
+Headers extracted  : 0
+Functions          : 3
+Source lines       : 701
+TER                : 44 % (612/1369) MC/DC
+TER                : 82 % (365/443) statement
